@@ -1,0 +1,796 @@
+('Feigenbaum attractor', 0.538, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Feigenbaum_attractor.png/150px-Feigenbaum_attractor.png')
+	http://bugman123.com/Fractals/Bifurcation.gif
+	https://upload.wikimedia.org/wikipedia/commons/3/3e/Feigenbaum.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Feigenbaum_attractor.png/640px-Feigenbaum_attractor.png
+	https://www.wired.com/wp-content/uploads/2014/03/800px-LogisticMap_BifurcationDiagram.png
+	https://www.researchgate.net/publication/228927120/figure/fig1/AS:669975643713545@1536746049786/Fractal-bifurcation-diagram-where-the-fractal-property-is-visualized-by-the-red-points.png
+	https://i.ytimg.com/vi/L9dLBGgVeig/hqdefault.jpg
+	https://www.researchgate.net/profile/Sergey-Kuznetsov-5/publication/2147426/figure/fig2/AS:279429352837139@1443632557966/Correspondence-between-the-Mandelbrot-set-a-and-the-Feigenbaum-bifurcation-tree-b.png
+	https://users.math.yale.edu/public_html/People/frame/Fractals/Chaos/Feigenbaum/FeigenbaumConst.gif
+('Cantor set', 0.6309, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cantor_set_in_seven_iterations.svg/200px-Cantor_set_in_seven_iterations.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/d/d0/AsymmCantor.png
+	https://upload.wikimedia.org/wikipedia/commons/8/83/3D_Cantor_set.jpg
+	https://mathimages.swarthmore.edu/imgUpload/755px-Cantor.png
+	https://www.researchgate.net/profile/Bhupendra-Pratap-Singh/publication/308200428/figure/fig9/AS:407239950127104@1474104978045/Different-Fractal-Geometry-Sierpinski-Cantor-set-Koch-curves-Sierpinski-Gasket.png
+	https://img.favpng.com/14/13/4/cantor-set-fractal-mathematics-geometry-line-segment-png-favpng-UnzRcVEjz3KirhzXEKUfqYD26.jpg
+	https://galileounbound.files.wordpress.com/2020/12/fractals.jpg?w=1200
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cantor_set_in_seven_iterations.svg/729px-Cantor_set_in_seven_iterations.svg.png
+	https://cdn.imgbin.com/4/23/25/imgbin-cantor-set-set-theory-fractal-interval-fractal-geometry-angxk6w4kJ3pCpg4BkK4dL21b.jpg
+('Asymmetric Cantor set', 0.6942, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/AsymmCantor.png/200px-AsymmCantor.png')
+	https://upload.wikimedia.org/wikipedia/commons/d/d0/AsymmCantor.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/asymmetric-cantor-set-fractal-4th-order.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/asymmetric-cantor-set-barcode-mode.png
+	https://www.researchgate.net/profile/Abdul-Khaleque-8/publication/274712452/figure/fig1/AS:391872431312903@1470441076655/Schematic-of-asymmetric-Cantor-set-multilayered-structure-It-is-assumed-that-a-plane.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/asymmetric-cantor-set-right-to-left.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/asymmetric-cantor-set-fractal-symmetric.png
+	https://www.researchgate.net/profile/Abdul-Khaleque-8/publication/274712452/figure/fig4/AS:668515317063698@1536397880970/Reectivity-spectrum-of-asymmetric-Cantor-set-rst-order-GaAsair-structure-for-s-10.jpg
+	https://www.researchgate.net/profile/Abdul-Khaleque-8/publication/274712452/figure/fig1/AS:391872431312903@1470441076655/Schematic-of-asymmetric-Cantor-set-multilayered-structure-It-is-assumed-that-a-plane_Q640.jpg
+('Real numbers whose base 10 digits are even', 0.69897, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Even_digits.png/200px-Even_digits.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/800px-KochFlake.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://mathenchant.files.wordpress.com/2021/10/078-image.png
+	http://aperiodical.com/wp-content/uploads/2012/06/EC10_b4_1000k_steps.png
+	https://d2r55xnwy6nx47.cloudfront.net/uploads/2021/07/Infinity-Tower_Lede_2880.jpg
+	https://cdn.mos.cms.futurecdn.net/PcSbo8sNmyYFrajJVXp4kT.jpg
+	https://miro.medium.com/max/1400/1*q3LsbgeOprLcBIGjw3k8zA.jpeg
+	https://i1.rgstatic.net/publication/317377605_More_on_one_class_of_fractals/links/5966f9a2aca2728ca66d8634/largepreview.png
+('Spectrum of Fibonacci Hamiltonian', 0.88137, None)
+	https://d3i71xaburhd42.cloudfront.net/30ada4ace9388f23637195213732d1eaf00de2f3/10-Figure1-1.png
+	https://d3i71xaburhd42.cloudfront.net/30ada4ace9388f23637195213732d1eaf00de2f3/13-Figure3-1.png
+	https://i1.rgstatic.net/publication/226890266_The_Fractal_Dimension_of_the_Spectrum_of_the_Fibonacci_Hamiltonian/links/0deec5356f752019e0000000/largepreview.png
+	https://d3i71xaburhd42.cloudfront.net/30ada4ace9388f23637195213732d1eaf00de2f3/17-Figure5-1.png
+	https://d3i71xaburhd42.cloudfront.net/30ada4ace9388f23637195213732d1eaf00de2f3/16-Figure4-1.png
+	http://www.xray.cz/aperiodic/files/33_files/fig1.png
+('Generalized Cantor set', 1.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Generalized_cantor_set.png/200px-Generalized_cantor_set.png')
+	https://upload.wikimedia.org/wikipedia/commons/3/38/Generalized_cantor_set.png
+	https://d3i71xaburhd42.cloudfront.net/50006f37d8e6c3416f100d780415e2429a7e4295/2-Figure3-1.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/generalized-cantor-set-8th-order.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/generalized-cantor-set-one-third.png
+	https://d3i71xaburhd42.cloudfront.net/50006f37d8e6c3416f100d780415e2429a7e4295/1-Figure1-1.png
+	https://i1.rgstatic.net/publication/315072343_Generalized_Cantor_Set_and_its_Fractal_Dimension/links/5b6f254e92851ca65055f008/largepreview.png
+	https://d3i71xaburhd42.cloudfront.net/50006f37d8e6c3416f100d780415e2429a7e4295/2-Figure2-1.png
+('Smith–Volterra–Cantor set', 1.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Smith-Volterra-Cantor_set.svg/200px-Smith-Volterra-Cantor_set.svg.png')
+	https://onlinemathtools.com/images/examples-onlinemathtools/smith-volterra-cantor-fractal-with-border.png
+	https://hmco.enpc.fr/UNIT_ComplexSystems/~gen/6_MultiScaleAnalysis_Fractal/6_MultiScaleAnalysis_Fractal_web.publi/web/res/CantorSet.png
+	https://i.stack.imgur.com/p02qK.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/fat-cantor-set-squeeze-mode.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/epislon-cantor-set-bottom-up.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cantor_set_in_seven_iterations.svg/1458px-Cantor_set_in_seven_iterations.svg.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/svc-fractal-set-barcode-mode.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cantor_set_binary_tree.svg/800px-Cantor_set_binary_tree.svg.png
+('Takagi or Blancmange curve', 1.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Takagi_curve.png/150px-Takagi_curve.png')
+	https://www.geogebra.org/resource/JSzEck7V/v5TPiXMemPSQR4fW/material-JSzEck7V.png
+	https://upload.wikimedia.org/wikipedia/commons/0/0d/Takagi_curve.png
+	https://i.stack.imgur.com/ST1DM.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Blancmange-approx4.svg/192px-Blancmange-approx4.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Blancmange_k3.png/180px-Blancmange_k3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Blancmange-function.svg/800px-Blancmange-function.svg.png
+	https://www.calculushowto.com/wp-content/uploads/2019/12/blancmange-function-3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Blancmange-approx3.svg/192px-Blancmange-approx3.svg.png
+('Julia set z² + 1/4', 1.0812, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Julia_z2%2B0%2C25.png/100px-Julia_z2%2B0%2C25.png')
+	https://www.mcgoodwin.net/julia/mcmjul1.gif
+	https://www.mcgoodwin.net/julia/mcmloren.gif
+	https://rosettacode.org/mw/images/thumb/2/28/Julia_set_java.png/600px-Julia_set_java.png
+	http://www.juliasets.dk/Pictures-files/46.jpg
+	https://www.mcgoodwin.net/julia/mcmjul3.gif
+	http://www.karlsims.com/julias-and-mandelbrot.jpg
+	https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg
+	https://www.researchgate.net/profile/Robert-Devaney/publication/268656689/figure/fig2/AS:667620256800769@1536184481100/The-black-points-lie-in-the-Julia-sets-for-z-2-l-z-2-where-l-0001-and-l-000001.ppm
+('Boundary of the Rauzy fractal', 1.0933, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rauzy_fractal.png/150px-Rauzy_fractal.png')
+	https://upload.wikimedia.org/wikipedia/commons/3/3b/Rauzy_fractal.png
+	https://www.researchgate.net/profile/Victor-Sirvent/publication/260186902/figure/fig1/AS:297124068642816@1447851306529/The-Rauzy-fractal-R-3-and-its-natural-decomposition.png
+	https://www.researchgate.net/profile/Victor-Sirvent/publication/260176066/figure/fig1/AS:341545552236547@1458442213315/The-Rauzy-fractal-of-the-substitution-1-12-2-13-3-1.png
+	https://d3i71xaburhd42.cloudfront.net/5404f718061ec8951b4a1e986175c241ca5d732a/4-Figure1-1.png
+	https://www.researchgate.net/profile/Jun-Luo-30/publication/259483469/figure/fig2/AS:667639542190095@1536189079478/Our-strategy_Q320.jpg
+	https://www.tandfonline.com/doi/cover-img/10.1080/uexm20.v029.i02
+('contour of the Gosper island', 1.12915, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Gosper_Island_4.svg/100px-Gosper_Island_4.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Gosper_Island_4.svg/480px-Gosper_Island_4.svg.png
+	https://www.researchgate.net/profile/Sam-Safia/publication/330591114/figure/fig1/AS:845220858044417@1578527764355/Gosper-island-fractals-a-the-first-five-iterations-b-their-related-applications-to.ppm
+	https://i.pinimg.com/736x/1f/2d/7d/1f2d7d9d8f590e24ecbf3470eca5d597--fractal-patterns-curve.jpg
+	https://archive.lib.msu.edu/crcmath/math/math/g/g_1748.gif
+	https://www.researchgate.net/publication/357129352/figure/fig3/AS:1102052163887105@1639761119407/Gosper-island-fractal-a-first-b-second-and-c-third-stage_Q320.jpg
+	https://mathworld.wolfram.com/images/eps-svg/FlowsnakeTiling2_850.svg
+	https://www.researchgate.net/publication/357129352/figure/fig3/AS:1102052163887105@1639761119407/Gosper-island-fractal-a-first-b-second-and-c-third-stage.ppm
+	http://mypage.concordia.ca/mathstat/pgora/m475/Gosper_images/Image8.gif
+('Dendrite Julia set', 1.2, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dendrite_julia.png/150px-Dendrite_julia.png')
+	https://www.researchgate.net/profile/Victor-Garcia-Garrido/publication/338832557/figure/fig1/AS:851849334755328@1580108116095/A-Dendrite-fractal-obtained-for-the-quadratic-mapping-with-c-i-as-revealed-by-DLDs.ppm
+	https://upload.wikimedia.org/wikipedia/commons/0/07/Dendrite_julia.png
+	https://www.mcgoodwin.net/julia/mcmjul1.gif
+	http://www.marquesslewis.us/images/fractals/julia_dendrites_hsv.png
+	https://www.idpoisson.fr/astorg/highres/dendritecontrastee.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d7/Quaternion_Julia_c%3Di.jpg
+	https://mathworld.wolfram.com/images/eps-svg/DendriteFractal_1000.svg
+	https://calcpad.files.wordpress.com/2022/02/d0b8d0b7d0bed0b1d180d0b0d0b6d0b5d0bdd0b8d0b5.png?w=684
+('Fibonacci word fractal 60°', 1.2083, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fibo_60deg_F18.png/200px-Fibo_60deg_F18.png')
+	https://upload.wikimedia.org/wikipedia/commons/a/a3/Fibonacci_word_fractal_variants.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fibonacci_fractal_first_iterations.png/440px-Fibonacci_fractal_first_iterations.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/FWF_whites_quares.png/440px-FWF_whites_quares.png
+	https://upload.wikimedia.org/wikipedia/commons/e/e6/Fibonacci_word_fractal_boundary.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Tiling_Fibonacci_word_fractal.png/220px-Tiling_Fibonacci_word_fractal.png
+	http://rosettacode.org/mw/images/1/1e/Fib_word_fractal.gif
+	https://content.wolfram.com/uploads/sites/19/2014/01/Ramirez-Rubiano_Output_11.gif
+('Boundary of the tame twindragon', 1.2108, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TameTwindragontile.png/150px-TameTwindragontile.png')
+	https://www.researchgate.net/profile/Douglas-Dokken/publication/292981835/figure/fig12/AS:668239424147467@1536332102648/The-boundary-of-the-twindragon-fractal-c-Wikipedia.ppm
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TameTwindragontile.png/640px-TameTwindragontile.png
+	https://static.observableusercontent.com/thumbnail/10d15385d6c3c906d96817072cdd73f8a1913b14fcf138e0ef594cc7b502a5d3.jpg
+	https://upload.wikimedia.org/wikipedia/commons/3/36/TameTwindragontile.png
+	https://www.cherryarbordesign.com/wp-content/uploads/2018/07/twinDragon_LEVEL16.png
+	https://www.cherryarbordesign.com/wp-content/uploads/2018/07/twinDragon_LEVEL16_two_copies-300x273.png
+	https://www.researchgate.net/profile/Klaus-Scheicher/publication/228531136/figure/fig1/AS:393867175186435@1470916660408/The-boundary-F-of-the-Twin-Dragon.png
+	https://larryriddle.agnesscott.org/ifs/heighway/twindragon/TwindragonBoundaryDesign.gif
+('Hénon map', 1.26, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Henon.jpg/100px-Henon.jpg')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/HenonMap.svg/1200px-HenonMap.svg.png
+	https://virtualmathmuseum.org/Fractal/henon_ap/i/henon_area_preserving_map_013.png
+	https://mathworld.wolfram.com/images/eps-svg/HenonMap_1000.png
+	http://www.doc.ic.ac.uk/~rh2515/website/images/henonWithZoom.png
+	https://blbadger.github.io/logistic_map/henon_map.png
+	https://fractalfoundation.org/OFCA/henon1.jpg
+	https://sprott.physics.wisc.edu/chaos/henon.gif
+	https://demonstrations.wolfram.com/BoxCountingAlgorithmOfTheHenonMap/img/popup_1.png
+('Triflake', 1.2619, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Triflake.png/150px-Triflake.png')
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/multicolored-triflake-fractal.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/triflake-curve-three-anti-stars.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/triflake-curve-four-colors.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/triflake-ink-stain.png
+	https://upload.wikimedia.org/wikipedia/commons/6/66/Triflake.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/triflake-fractal-upside-down.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/triflake-curve-one-fill.png
+	https://catonmat.net/images/fractal-curves/koch-antisnowflake-fractal.png
+('Koch curve', 1.2619, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Koch_curve.svg/200px-Koch_curve.svg.png')
+	https://fractalfoundation.org/wp-content/uploads/2010/05/kochprog440.jpg
+	https://www.researchgate.net/profile/Marcelo-Ribeiro-37/publication/26365833/figure/fig5/AS:310046622797835@1450932283682/Construction-of-the-von-Koch-curve-F-At-each-stage-the-middle-third-of-each-interval.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://www.researchgate.net/profile/Jack-Tuszynski/publication/311503809/figure/fig1/AS:437008762970112@1481202416370/An-image-of-the-Koch-snowflake-a-fractal-with-fractal-dimension-d-126-From.png
+	https://www.researchgate.net/profile/Ronald-Goldman/publication/221316579/figure/fig1/AS:305474961461248@1449842314352/Two-examples-of-fractals-Koch-snowflake-left-and-Sierpinski-gasket-right.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Koch_Snowflake_7th_iteration.svg/512px-Koch_Snowflake_7th_iteration.svg.png
+	https://www.researchgate.net/profile/Oender-Pekcan/publication/329695536/figure/fig1/AS:705155469160449@1545133573193/The-first-stages-of-the-construction-of-von-Koch-curve-and-a-random-version-of-the-curve.png
+	https://sites.google.com/a/maret.org/advanced-math-7-final-project-2014/_/rsrc/1468872089810/architecture-and-arts/fractals-koch-snowflake/von_Koch_curve.jpg?height=400&width=324
+('boundary of Terdragon curve', 1.2619, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Terdragon_boundary.png/150px-Terdragon_boundary.png')
+	https://upload.wikimedia.org/wikipedia/commons/a/ab/Boundary_dragon_curve.png
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/LineConstruction4.png
+	https://upload.wikimedia.org/wikipedia/commons/6/69/Fractal_dragon_curve.jpg
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/terdragonIFS.gif
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/terdragonLarge.gif
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/sixCopies2.gif
+	https://upload.wikimedia.org/wikipedia/commons/e/e3/Terdragon.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Curved_Dragon_Curve.svg/220px-Curved_Dragon_Curve.svg.png
+('2D Cantor dust', 1.2619, 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Carre_cantor.png/100px-Carre_cantor.png')
+	https://www.robertdickau.com/cantordust.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/1024-fractal-dust-particles.png
+	https://www.robertdickau.com/cantor3d.png
+	https://www.researchgate.net/profile/Alexander-Balankin/publication/235475627/figure/fig2/AS:393358049595396@1470795275394/Fractal-models-of-porous-media-a-Cantor-dust-D-3-ln-2-ln-3-189-b-Sierpinski_Q640.jpg
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/regular-cantor-fractal.png
+	https://www.researchgate.net/profile/Cyril-Fleurant/publication/280990684/figure/fig5/AS:668580685283328@1536413465031/Cantors-Dust-fractal-object.ppm
+	https://www.researchgate.net/profile/Pavel-Grinchuk/publication/6331025/figure/fig2/AS:285127558090762@1444991115662/Example-of-fractal-Cantor-dust-constructed-on-the-percolation-cluster-square-lattice_Q320.jpg
+	https://upload.wikimedia.org/wikipedia/commons/8/83/3D_Cantor_set.jpg
+('2D L-system branch', 1.2619, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Onetwosix.png/200px-Onetwosix.png')
+	https://generativelandscapes.files.wordpress.com/2014/10/f5_variations.png
+	https://generativelandscapes.files.wordpress.com/2014/10/f5_variant_structure.png
+	https://generativelandscapes.files.wordpress.com/2014/10/f5_vg3_multiple.png
+	https://miro.medium.com/max/1400/1*AlONfUNbSL9m8CZn2bY9Sw.gif
+	https://jsantell.com/l-systems/lsystem-header.png
+	http://paulbourke.net/fractals/lsys/leaf_1.gif
+	https://upload.wikimedia.org/wikipedia/commons/7/74/Dragon_trees.jpg
+	https://generativelandscapes.files.wordpress.com/2014/10/f5_vg4_3d.png
+('Julia set z<sup>2</sup>&#160;&#8722;&#160;1', 1.2683, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Julia_z2-1.png/200px-Julia_z2-1.png')
+	https://www.mcgoodwin.net/julia/mcmjul1.gif
+	http://www.juliasets.dk/Julia-filer/julia04.jpg
+	http://www.juliasets.dk/Julia-filer/julia07.jpg
+	http://paulbourke.net/fractals/juliaset/sample9.png
+	http://paulbourke.net/fractals/juliaset/sample3.png
+	http://www.juliasets.dk/UFP-filer/03.jpg
+	http://www.karlsims.com/julias-and-mandelbrot.jpg
+	http://www.juliasets.dk/Pictures-files/46.jpg
+('Apollonian gasket', 1.3057, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Apollonian_gasket.svg/100px-Apollonian_gasket.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ApollonianGasket-15_32_32_33.svg/220px-ApollonianGasket-15_32_32_33.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/ApollianGasketNested_2-20.svg/220px-ApollianGasketNested_2-20.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Apollonian_gasket.svg/1200px-Apollonian_gasket.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/e/e6/Apollonian_gasket.svg
+	http://www.fractalsciencekit.com/fractals/large/Fractal-Apollonian-Gasket-Variations-04.jpg
+	https://i.stack.imgur.com/aU2iD.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Apollonian_gasket.svg/220px-Apollonian_gasket.svg.png
+	http://www.fractalsciencekit.com/fractals/large/Fractal-Apollonian-Gasket-Variations-01.jpg
+('5 circles inversion fractal', 1.328, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cicle_inversion.svg/100px-Cicle_inversion.svg.png')
+	https://users.math.yale.edu/public_html/People/frame/Fractals/IntroToFrac/SelfSimEx/CircInv/Circle2.gif
+	https://users.math.yale.edu/public_html/People/frame/Fractals/CircInvFrac/InvLimSet/LimitSetIntro.gif
+	https://sites.nova.edu/mjl/files/2021/05/fiveSeeds.png
+	https://users.math.yale.edu/public_html/People/frame/Fractals/CircInvFrac/CircDim/Apollonian2.gif
+	https://users.math.yale.edu/public_html/People/frame/Fractals/CircInvFrac/InvLimSet/FiveCirc2LS/FiveCircLS2.gif
+	http://www.hiddendimension.com/fractalmath/Images/sphere.gif
+	https://img.favpng.com/6/9/7/apollonian-gasket-fractal-circle-m-bius-transformation-mathematics-png-favpng-YbQ2k9VHsreKEGxBrxhHxZYPH.jpg
+	http://www.fractalsciencekit.com/fractals/large/Fractal-Circle-Inversion-01.jpg
+('Quadratic von Koch island using the type 1 curve as generator', 1.36521, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Karperienflakeani2.gif/150px-Karperienflakeani2.gif')
+	https://www.researchgate.net/profile/Faez-Fawwaz/publication/26625078/figure/fig1/AS:669996334206986@1536750982854/First-three-iterations-of-the-construction-of-the-quadratic-Koch-curve-curve-Thus-N.png
+	https://upload.wikimedia.org/wikipedia/commons/3/33/Quadratic_type_1_von_Koch_curve.png
+	https://sites.google.com/a/maret.org/advanced-math-7-final-project-2014/_/rsrc/1468872089810/architecture-and-arts/fractals-koch-snowflake/von_Koch_curve.jpg?height=400&width=324
+	https://onlinemathtools.com/images/examples-onlinemathtools/quadratic-koch-curve-vertical.png
+	https://www.researchgate.net/profile/Sowmya-Vishvanathan/publication/258652653/figure/fig2/AS:360493962285057@1462959866365/Quadratic-Koch-Island-by-L-System-a-n0-b-n1-c-n2-d-n3-Example-1-Let-us.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/640px-KochFlake.svg.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/quadratic-koch-island-3rd-order.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_1.png
+('Douady rabbit', 1.3934, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Douady_rabbit.png/150px-Douady_rabbit.png')
+	https://static.scientificamerican.com/blogs/cache/file/B8C10554-6C52-4513-AC04B105A22A942E_source.png?w=590&h=800&A6724BE1-0A4A-4E8D-A14FBB28E95E3C4F
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Douady_rabbit%2C_plotted_with_Matplotlb.svg/1200px-Douady_rabbit%2C_plotted_with_Matplotlb.svg.png
+	https://blogs.scientificamerican.com/blogs/assets/File/Douady%20rabbit%202.png
+	https://www.researchgate.net/profile/Emmanuel-Moulay/publication/2148915/figure/fig2/AS:327956070191105@1455202228611/The-Douadys-Rabbit-fractal.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Quaternion_Julia_Douady_rabbit.jpg/440px-Quaternion_Julia_Douady_rabbit.jpg
+	https://upload.wikimedia.org/wikipedia/commons/e/ef/Douady_rabbit_fractal.png
+	https://mathworld.wolfram.com/images/eps-svg/DouadysRabbitFractal_1000.svg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DouadyRabbitInExponentialFamily.jpg/220px-DouadyRabbitInExponentialFamily.jpg
+('Vicsek fractal', 1.4649, 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Box_fractal.svg/100px-Box_fractal.svg.png')
+	https://as2.ftcdn.net/v2/jpg/01/24/29/31/1000_F_124293194_qXnp6QQSfPDswSqgeDBhIDEAtOx35Vom.jpg
+	https://www.kindpng.com/picc/m/207-2074748_vicsek-fractal-order-box-fractal-hd-png-download.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Box_fractal.svg/1200px-Box_fractal.svg.png
+	https://www.pngfind.com/pngs/m/193-1931377_first-three-generations-of-the-vicsek-fractal-for.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Box_fractal.svg/640px-Box_fractal.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Box_or_Vicsek_Fractal_4-iterations.svg/2560px-Box_or_Vicsek_Fractal_4-iterations.svg.png
+	https://www.researchgate.net/profile/Zhongzhi-Zhang/publication/2212572/figure/fig1/AS:642452591489024@1530184042034/Illustration-of-a-particular-Vicsek-fractal-V-4-2-The-open-circles-denote-the-starting_Q640.jpg
+	https://upload.wikimedia.org/wikipedia/commons/4/4e/6452553_Vicsek_Fractal_Antenna.png
+('Quadratic von Koch curve (type 1)', 1.4649, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Quadratic_Koch_2.svg/150px-Quadratic_Koch_2.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/3/33/Quadratic_type_1_von_Koch_curve.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_2.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_1.png
+	https://www.researchgate.net/profile/Jorge-Velasco-Hernandez/publication/234164886/figure/fig1/AS:281596759429174@1444149307751/Fractal-fracture-idealizations-a-Von-Koch-curve-and-b-random-Von-Koch-curve.png
+	https://www.researchgate.net/profile/Marcelo-Ribeiro-37/publication/26365833/figure/fig5/AS:310046622797835@1450932283682/Construction-of-the-von-Koch-curve-F-At-each-stage-the-middle-third-of-each-interval.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d9/KochFlake.svg
+	https://sites.google.com/a/maret.org/advanced-math-7-final-project-2014/_/rsrc/1468872089810/architecture-and-arts/fractals-koch-snowflake/von_Koch_curve.jpg?height=400&width=324
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+('Quadric cross', 1.4961, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Quadriccross.gif/150px-Quadriccross.gif')
+	https://onlinemathtools.com/images/examples-onlinemathtools/quadric-cross-with-contour.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/quadric-cross-8th-order.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/quadric-cross-narrow.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Box_fractal.svg/1200px-Box_fractal.svg.png
+	https://imagej.nih.gov/ij/plugins/fraclac/FLHelp/cross8inv.gif
+	https://pbs.twimg.com/media/Dm6NjvjX4AA8AcN.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Box_or_Vicsek_Fractal_4-iterations.svg/500px-Box_or_Vicsek_Fractal_4-iterations.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/8/86/32_Segment_One_Eighth_Scale_Quadric_Fractal.jpg
+('a Weierstrass function: <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;">', 1.5, None)
+	https://www.w3.org/Math/draft-spec/image/mpadded-resize.png
+	https://www.w3.org/TR/mathml-core/figures/mrowbox.svg
+	https://authorguide.learnosity.com/hc/article_attachments/360001196177/Screen_Shot_2018-12-03_at_11.57.50.png
+	https://www.w3.org/Math/draft-spec/image/em-longdiv-colonrightright.png
+	https://addons.mozilla.org/user-media/previews/full/123/123814.png?modified=1622132348
+	https://www.w3.org/Math/draft-spec/image/em-longdiv-indian.png
+	https://sites.psu.edu/accessibility/wp-content/uploads/sites/7691/2014/10/MathType.png
+	https://developer.mozilla.org/en-US/docs/Web/MathML/Authoring/mathml-shot1.png
+('Quadratic von Koch curve (type 2)', 1.5, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Quadratic_Koch.svg/150px-Quadratic_Koch.svg.png')
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_2.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Quadratic_Koch.svg/2560px-Quadratic_Koch.svg.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_1.png
+	https://www.researchgate.net/profile/Marcelo-Ribeiro-37/publication/26365833/figure/fig5/AS:310046622797835@1450932283682/Construction-of-the-von-Koch-curve-F-At-each-stage-the-middle-third-of-each-interval.png
+	https://www.researchgate.net/profile/Jorge-Velasco-Hernandez/publication/234164886/figure/fig1/AS:281596759429174@1444149307751/Fractal-fracture-idealizations-a-Von-Koch-curve-and-b-random-Von-Koch-curve.png
+	https://sites.google.com/a/maret.org/advanced-math-7-final-project-2014/_/rsrc/1468872089810/architecture-and-arts/fractals-koch-snowflake/von_Koch_curve.jpg?height=400&width=324
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d9/KochFlake.svg
+('Boundary of the Dragon curve', 1.5236, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Boundary_dragon_curve.png/150px-Boundary_dragon_curve.png')
+	https://upload.wikimedia.org/wikipedia/commons/a/ab/Boundary_dragon_curve.png
+	https://upload.wikimedia.org/wikipedia/commons/6/69/Fractal_dragon_curve.jpg
+	http://poignance.coiraweb.com/math/Fractals/Dragon/Image1.gif
+	http://poignance.coiraweb.com/math/Fractals/Dragon/Image2.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Curved_Dragon_Curve.svg/220px-Curved_Dragon_Curve.svg.png
+	https://hollymath.files.wordpress.com/2013/06/dragon_curve.gif
+	https://bentrubewriter.files.wordpress.com/2012/04/dragoncurvestage13.png
+	https://larryriddle.agnesscott.org/ifs/heighway/HeighwayLarge3.gif
+('Boundary of the twindragon curve', 1.5236, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Twindragontile.png/150px-Twindragontile.png')
+	https://upload.wikimedia.org/wikipedia/commons/a/ab/Boundary_dragon_curve.png
+	https://upload.wikimedia.org/wikipedia/commons/6/69/Fractal_dragon_curve.jpg
+	https://www.researchgate.net/profile/Kevin-Hare-2/publication/272845423/figure/fig2/AS:294842098831360@1447307242208/The-twin-dragon-curve-A-1-i-2.png
+	https://www.researchgate.net/profile/Douglas-Dokken/publication/292981835/figure/fig12/AS:668239424147467@1536332102648/The-boundary-of-the-twindragon-fractal-c-Wikipedia.ppm
+	https://www.cherryarbordesign.com/wp-content/uploads/2018/07/twinDragon_LEVEL16-300x272.png
+	https://larryriddle.agnesscott.org/ifs/heighway/twindragon/TwindragonBoundaryDesign.gif
+	https://larryriddle.agnesscott.org/ifs/heighway/twindragon/Image1.gif
+	http://poignance.coiraweb.com/math/Fractals/Dragon/Image2.gif
+('3-branches tree', 1.585, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Arbre_3_branches2.png/110px-Arbre_3_branches2.png')
+	https://media.wired.com/photos/5e0e779df3e943000879989e/4:3/w_2043,h_1532,c_limit/Science_treefractal_1139624812.jpg
+	https://i.pinimg.com/originals/98/2b/c2/982bc256e03eb8f155685dc46fc351d4.jpg
+	https://www.researchgate.net/publication/349833259/figure/fig1/AS:998232314351616@1615008538169/A-fractal-tree-of-depth-3-with-3-branches-at-each-level-Note-that-formally-the-trunk.png
+	https://upload.wikimedia.org/wikipedia/commons/2/2d/Arbre_3_branches.png
+	https://i.stack.imgur.com/Rz4DA.png
+	https://cdn.help.the3doodler.com/20190710025845/File_000-e1562727637116.jpeg
+	http://fractalsaco.weebly.com/uploads/6/3/5/5/63554315/kidney-tree_orig.jpg
+	https://fractalfoundation.org/OFC/elmtrees.jpg
+('Sierpinski triangle', 1.585, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Sierpinski8.svg/100px-Sierpinski8.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/1200px-Sierpinski_triangle.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/220px-Sierpinski_triangle.svg.png
+	https://bentrubewriter.files.wordpress.com/2012/04/affinechaosgame.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fractal_tree.gif/220px-Fractal_tree.gif
+	https://richardrosenman.com/wp-content/uploads/software_sierpinski_cover.jpg
+	https://www.cplusplus.com/articles/LyTbqMoL/serpinskiTriangles.jpg
+	https://www.crayolateachers.ca/framework/uploads/lesson-plans/02f81b55ea58354156ccbb1ce2475d8e-cover.png
+	https://www.researchgate.net/profile/Joshua-Jackson-16/publication/320024897/figure/fig2/AS:542700812603392@1506401364529/The-Sierpinski-triangle-an-example-of-a-fractal-structure-Like-the-triangle.png
+('Sierpiński arrowhead curve', 1.585, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/PfeilspitzenFraktal.PNG/100px-PfeilspitzenFraktal.PNG')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Arrowhead_curve_1_through_6.png/400px-Arrowhead_curve_1_through_6.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/sierpinski-arrowhead-curve-big.png
+	https://www.robertdickau.com/sierarrow6.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/sierpinski-arrowhead-curve-pink.png
+	https://www.robertdickau.com/sierarrow3d6.png
+	https://www.geogebra.org/resource/se9uetn9/cCi4PNYrHWi6id8x/material-se9uetn9.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/sierpinski-arrowhead-curve-brown.png
+	https://i.ytimg.com/vi/bnLc6rHVzb0/maxresdefault.jpg
+('Boundary of the T-square fractal', 1.585, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/T-Square_fractal_%28evolution%29.png/200px-T-Square_fractal_%28evolution%29.png')
+	https://upload.wikimedia.org/wikipedia/commons/3/39/Boundary_T-Square_fractal.png
+	https://upload.wikimedia.org/wikipedia/commons/c/cb/T-Square_fractal_%28evolution%29.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/T-Square_fractal_%288_iterations%29.png/512px-T-Square_fractal_%288_iterations%29.png
+	https://i.ytimg.com/vi/C3EX_DFIVuo/maxresdefault.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Golden_Square_fractal_6.svg/512px-Golden_Square_fractal_6.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/V4_ban1_inc2.gif/200px-V4_ban1_inc2.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Half_square_fractal_5.svg/512px-Half_square_fractal_5.svg.png
+	https://www.researchgate.net/profile/Sam-Safia/publication/320649462/figure/fig1/AS:583847922135040@1516211600400/The-first-four-iterations-of-the-T-square-fractal-geometry.png
+('a golden dragon', 1.61803, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Phi_glito.png/150px-Phi_glito.png')
+	https://external-preview.redd.it/bPqjZWDenDq5LOjPsNWwm4CO74K7__lVplPUJVo0cVM.jpg?auto=webp&s=446caff8377b5fdebd7eff05d877397da1f1c133
+	http://www.abm-enterprises.net/fractal-art/golden-dragon-wallpaper.jpg
+	https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/golden-dragon-fractal-scott-lyons.jpg
+	https://live.staticflickr.com/8106/8653626029_978ccc38bf_b.jpg
+	https://i.pinimg.com/736x/ef/ee/d6/efeed6ba9143ba1b8ef7d54213b2e11c--fractal-images-art-fractal.jpg
+	https://larryriddle.agnesscott.org/ifs/heighway/golden/goldenDragonLarge.gif
+	https://ctl.s6img.com/society6/img/85RlxFEd4F5qBli5VWI3PH4gLiA/w_1500/prints/~artwork/s6-0057/a/24231101_2953667/~~/golden-dragon-spirals-and-circles-fractal-art-prints.jpg
+	https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/78a1b2c8-e5c9-4e3d-ad89-2a854db76a8f/d5t955e-cc739fb3-8f04-4304-9948-096ceea44b3e.png/v1/fill/w_1024,h_1024,strp/golden_dragon_fractal_by_rcdezine_d5t955e-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzc4YTFiMmM4LWU1YzktNGUzZC1hZDg5LTJhODU0ZGI3NmE4ZlwvZDV0OTU1ZS1jYzczOWZiMy04ZjA0LTQzMDQtOTk0OC0wOTZjZWVhNDRiM2UucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.s4Z8op5srKyEA82apkQ8uMU-UlJocNyYSeHX7QGb2Ck
+('Pascal triangle modulo 3', 1.6309, 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pascal_triangle_modulo_3.png/160px-Pascal_triangle_modulo_3.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pascal_triangle_modulo_3.png/1200px-Pascal_triangle_modulo_3.png
+	http://math.ucdenver.edu/~wcherowi/pt3.gif
+	https://mathlesstraveled.files.wordpress.com/2012/10/934508dc522e260ed2fba0549e8c5413.png?w=584
+	https://www.maa.org/sites/default/files/images/cms_upload/z3-27b45167.gif
+	https://i.stack.imgur.com/k76zp.png
+	https://www.maa.org/sites/default/files/images/cms_upload/z4-3241306.gif
+	http://jwilson.coe.uga.edu/EMAT6680/Parsons/MVP6690/Essay1/Images/image35.gif
+	https://i.stack.imgur.com/NVj7J.png
+('Sierpinski Hexagon', 1.6309, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sierpinski_hexagon_4th_Iteration.svg/150px-Sierpinski_hexagon_4th_Iteration.svg.png')
+	https://i.stack.imgur.com/eKlCM.png
+	https://larryriddle.agnesscott.org/ifs/pentagon/hexagonScalingHalf.gif
+	https://cdn.imgbin.com/12/19/8/imgbin-fractal-sierpinski-triangle-hexagon-hausdorff-dimension-sierpinski-carpet-mathematics-LzHpQfcbWPKe9uZzYe8bUZhKu.jpg
+	https://i.stack.imgur.com/V15Sb.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/sierpinski-hexaflake-fractal.png
+	https://cdn.imgbin.com/14/22/1/imgbin-fractal-hexagon-sierpinski-triangle-hexagon-4rCjZTwwazqWk88K4j8bBPc2a.jpg
+	https://cdn.imgbin.com/8/16/22/imgbin-sierpinski-triangle-hexagon-fractal-polygon-geometry-triangle-ynNLCDG4ZaUrGXhKBEeazsEg5.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sierpinski_hexagon.png/768px-Sierpinski_hexagon.png
+('Fibonacci word fractal', 1.6379, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Fibonacci_fractal_F23_steps.png/150px-Fibonacci_fractal_F23_steps.png')
+	https://onlinemathtools.com/images/examples-onlinemathtools/fibonacci-word-fractal-symmetrical.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/FWF_whites_quares.png/220px-FWF_whites_quares.png
+	https://upload.wikimedia.org/wikipedia/commons/a/a3/Fibonacci_word_fractal_variants.png
+	http://rosettacode.org/mw/images/1/1e/Fib_word_fractal.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fibonacci_fractal_first_iterations.png/220px-Fibonacci_fractal_first_iterations.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Tiling_Fibonacci_word_fractal.png/220px-Tiling_Fibonacci_word_fractal.png
+	https://upload.wikimedia.org/wikipedia/commons/f/fe/Fibonacci_word_fractal_diagonal_variant.jpg
+	http://rosettacode.org/mw/images/thumb/5/50/Fibonacci_word_fractal.zkl.jpg/250px-Fibonacci_word_fractal.zkl.jpg
+('Attractor of similarities of ratios 1/3, 1/2 and 2/3', 1.6402, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/IFS3sim3ratios.png/200px-IFS3sim3ratios.png')
+	https://opencardiovascularmedicinejournal.com/contents/volumes/V3/TOCMJ-3-110/TOCMJ-3-110_F1.jpg
+	https://www.mdpi.com/entropy/entropy-23-00261/article_deploy/html/images/entropy-23-00261-g001.png
+	https://www.vanderbilt.edu/AnS/psychology/cogsci/chaos/workshop/Hausdorff.GIF
+	https://www.mdpi.com/symmetry/symmetry-12-00964/article_deploy/html/images/symmetry-12-00964-g007.png
+	https://ars.els-cdn.com/content/image/1-s2.0-S1574691706030091-gr10.jpg
+	https://www.mdpi.com/fractalfract/fractalfract-06-00039/article_deploy/html/images/fractalfract-06-00039-g001.png
+	https://www.researchgate.net/profile/Andrew-Vince-3/publication/309738628/figure/fig12/AS:668590143442947@1536415720105/A-self-similar-polygonal-tiling-of-order-2_Q320.jpg
+	https://www.mdpi.com/mathematics/mathematics-10-00532/article_deploy/html/images/mathematics-10-00532-g009-0.png
+('Pascal triangle modulo 5', 1.6826, 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pascal_triangle_modulo_5.png/160px-Pascal_triangle_modulo_5.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pascal_triangle_modulo_5.png/1200px-Pascal_triangle_modulo_5.png
+	https://www.researchgate.net/profile/Eirini-Poimenidou-2/publication/233185475/figure/fig3/AS:667855800508434@1536240639944/The-first-5-and-25-rows-of-Pascals-Triangle-mod-5-illustrates-the-selfsimilarity.ppm
+	https://www.researchgate.net/profile/Eirini-Poimenidou-2/publication/233185475/figure/fig3/AS:667855800508434@1536240639944/The-first-5-and-25-rows-of-Pascals-Triangle-mod-5-illustrates-the-selfsimilarity_Q640.jpg
+	https://d3i71xaburhd42.cloudfront.net/5ea41376ef660d0f479d9b48b91d3c61e7f2c0c6/8-Figure5-1.png
+	https://pappubahry.com/misc/pascal_tri/images/005.png
+	https://www.seekpng.com/png/small/618-6188299_sierpinski-triangle-pascals-triangle-mod-2.png
+	https://i.stack.imgur.com/k76zp.png
+	https://aperiodical.com/wp-content/uploads/2022/01/Inverted-triangles.jpg
+('Ikeda map attractor', 1.7, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ikeda_map_a%3D1_b%3D0.9_k%3D0.4_p%3D6.jpg/100px-Ikeda_map_a%3D1_b%3D0.9_k%3D0.4_p%3D6.jpg')
+	https://www.nsf.gov/pubs/2002/nsf0120/images/ikeda.gif
+	https://coolbutuseless.github.io/post/2018-07-08-ikeda-map_files/figure-html/unnamed-chunk-1-1.png
+	https://upload.wikimedia.org/wikipedia/commons/6/6f/Ikeda_map_a%3D1_b%3D0.9_k%3D0.4_p%3D6.jpg
+	https://coolbutuseless.github.io/post/2018-07-08-ikeda-map_files/figure-html/unnamed-chunk-3-1.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ikeda_map_simulation_u%3D0.918_cropped.png/1200px-Ikeda_map_simulation_u%3D0.918_cropped.png
+	https://www.researchgate.net/profile/Hailiang-Du/publication/277047448/figure/fig2/AS:335217685483521@1456933532456/The-attractor-of-Ikeda-Map.png
+	http://paulbourke.net/fractals/ikeda/ikeda1.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ikeda-map-iterations.webm/300px--Ikeda-map-iterations.webm.jpg
+('50 segment quadric fractal (1/10 scaling rule)', 1.699, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/50seg.tif/lossy-page1-150px-50seg.tif.jpg')
+	https://www.researchgate.net/profile/Herbert-Jelinek/publication/26729984/figure/fig1/AS:214338100043791@1428113593957/A-32-segment-quadric-fractal-The-basic-pattern-shown-in-the-upper-box-can-be-seen.png
+	https://www.researchgate.net/profile/Herbert-Jelinek/publication/235406541/figure/fig2/AS:214226242990089@1428086924506/Self-similarity-and-scale-invariance-A-Thirty-two-segment-quadric-fractal-contour.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/50seg.tif/lossy-page1-300px-50seg.tif.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/3D_Computer_Generated_Fractal.png/440px-3D_Computer_Generated_Fractal.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/8_scale_fractal.png/300px-8_scale_fractal.png
+	https://www.researchgate.net/profile/Herbert-Jelinek/publication/235406541/figure/fig2/AS:214226242990089@1428086924506/Self-similarity-and-scale-invariance-A-Thirty-two-segment-quadric-fractal-contour_Q320.jpg
+	https://imagej.nih.gov/ij/plugins/fraclac/FLHelp/fvsl.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Julia_set_%28indigo%29.png/400px-Julia_set_%28indigo%29.png
+('Pinwheel fractal', 1.7227, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Pinwheel_fractal.png/150px-Pinwheel_fractal.png')
+	https://images.hdqwalls.com/wallpapers/pinwheel-fractal-4k-7y.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Pinwheel_fractal.png/640px-Pinwheel_fractal.png
+	https://w0.peakpx.com/wallpaper/11/702/HD-wallpaper-pinwheel-3d-abstract-fractal-wheel.jpg
+	https://w0.peakpx.com/wallpaper/330/208/HD-wallpaper-gnostic-pinwheel-fractals-pinwheel-light-fractal.jpg
+	https://w0.peakpx.com/wallpaper/620/199/HD-wallpaper-pinwheel-abstract-art-digital-fractal-illusion-optical-pattern-rainbow.jpg
+	https://wallpapers.com/images/high/pinwheel-fractal-lights-design-4bxu41viilavaaku.jpg
+	https://w0.peakpx.com/wallpaper/904/551/HD-wallpaper-colorful-pinwheel-abstract-fractal-retro.jpg
+	https://w0.peakpx.com/wallpaper/467/592/HD-wallpaper-fractal-spinwheel-fractal-colors-pinwheel-firefox-persona-theme-lights.jpg
+('Sphinx fractal', 1.7712, 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sphinx_rep-tile_fractal.gif/150px-Sphinx_rep-tile_fractal.gif')
+	https://w0.peakpx.com/wallpaper/255/611/HD-wallpaper-sphinx-s-signal-3d-fractal-collage-abstract-eye-candy.jpg
+	https://i5.walmartimages.com/asr/49f293c8-3ca9-4636-b510-57f36247d4b8.ad134e9398e166650ce1f751eefc977e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF
+	https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ad0d7ac-c1fb-437c-a3ac-b61abe3548f8/d46kyb5-bcdb07e2-4155-40be-a521-66a65bf85f61.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhZDBkN2FjLWMxZmItNDM3Yy1hM2FjLWI2MWFiZTM1NDhmOFwvZDQ2a3liNS1iY2RiMDdlMi00MTU1LTQwYmUtYTUyMS02NmE2NWJmODVmNjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1Fw8aGLqXd07oZMVPrcTFiZYrCZtrDcDE719dcxsDkg
+	https://i.pinimg.com/736x/ef/c0/36/efc036826bc1c9b22cb0616fce7aa05c--fractals-spirals.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sphinx_rep-tile_fractal-transparent.gif/640px-Sphinx_rep-tile_fractal-transparent.gif
+	https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/2726-the-bold-headed-lion-sphinx-fractal-irmgard-schoendorf-welch.jpg
+	https://storage.googleapis.com/static.mathigon.org/tasks%2F1ce64e660d2787bd0cc0de036d4b4da8.jpg
+	https://image.shutterstock.com/image-illustration/egyptian-motives-sphinx-abstract-magic-260nw-756733705.jpg
+('Hexaflake', 1.7712, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/HexaFlake_5th_Iteration_Center.svg/100px-HexaFlake_5th_Iteration_Center.svg.png')
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/hexaflake-fractal-full.png
+	https://as2.ftcdn.net/v2/jpg/01/24/27/37/1000_F_124273748_RtB0IMoagHjX3KPiUDfMBUW0QJfiUrcl.jpg
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/hexaflake-fractal-six-hexagons.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sierpinski_hexagon.png/178px-Sierpinski_hexagon.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/partial-hexaflake-fractal.png
+	https://www.researchgate.net/profile/Davide-Mazza-5/publication/40850813/figure/fig1/AS:267308329336852@1440742680795/A-The-hexa-flake-is-a-fractal-that-is-built-recursively-from-smaller-and-smaller.png
+	https://upload.wikimedia.org/wikipedia/commons/b/b4/Hexaflake.gif
+	https://w7.pngwing.com/pngs/660/714/png-transparent-fractal-dimension-n-flake-koch-snowflake-hausdorff-dimension-shape-monochrome-symmetry-polygon.png
+('Fractal H-I de Rivera', 1.7712, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fractal_H-I_de_Rivera.jpg/100px-Fractal_H-I_de_Rivera.jpg')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fractal_H-I_de_Rivera.jpg/1200px-Fractal_H-I_de_Rivera.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fractal_H-I_de_Rivera.jpg/800px-Fractal_H-I_de_Rivera.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fractal_H-I_de_Rivera.jpg/476px-Fractal_H-I_de_Rivera.jpg
+	https://upload.wikimedia.org/wikipedia/commons/1/1c/H_I_Rivera.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/archive/5/5e/20181120210141%21Fractal_H-I_de_Rivera.jpg/120px-Fractal_H-I_de_Rivera.jpg
+	https://qph.cf2.quoracdn.net/main-qimg-bb3a9d5613f13b0b477a1cf36f250b9d-pjlq
+	https://i.pinimg.com/originals/2e/15/90/2e159054be0d711b6774301ee7187299.jpg
+	https://ak1.ostkcdn.com/images/products/14249880/Designart-Symmetrical-Orange-Green-Fractal-Flower-Modern-Floral-Circle-Wall-Art-8e9c836e-11f6-41de-a6ba-aef87a88eb88_600.jpg?impolicy=medium
+('Von Koch curve 85°', 1.7848, 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Koch_Curve_85degrees.png/150px-Koch_Curve_85degrees.png')
+	https://upload.wikimedia.org/wikipedia/commons/b/b2/Koch_Curve_85degrees.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d9/KochFlake.svg
+	https://www.researchgate.net/profile/Marcelo-Ribeiro-37/publication/26365833/figure/fig5/AS:310046622797835@1450932283682/Construction-of-the-von-Koch-curve-F-At-each-stage-the-middle-third-of-each-interval.png
+	https://fractalfoundation.org/wp-content/uploads/2010/05/kochprog440.jpg
+	https://bentrubewriter.files.wordpress.com/2012/04/scan0007.jpg
+	https://media.geeksforgeeks.org/wp-content/uploads/Tringle_Koch_Curve.jpg
+	https://www.researchgate.net/profile/V-Singh-10/publication/257909757/figure/fig1/AS:297393489760256@1447915541234/Koch-curve-fractal-and-its-4-iterations.png
+('A self-affine fractal set', 1.8272, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Self-affine_set.png/200px-Self-affine_set.png')
+	https://upload.wikimedia.org/wikipedia/commons/0/0d/Self-affine_set.png
+	https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg
+	https://c8.alamy.com/comp/2J2J8RW/abstract-computer-generated-fractal-design-a-fractal-is-a-never-ending-pattern-fractals-are-infinitely-complex-patterns-that-are-self-similar-across-2J2J8RW.jpg
+	https://cdn.hswstatic.com/gif/fractal-update1.jpg
+	https://www.researchgate.net/profile/Andras-Pellionisz/publication/261402163/figure/fig1/AS:339582542467072@1457974195198/Examples-of-geometrically-self-similar-fractals-A-The-Mandelbrot-set-The-curve.png
+	https://c8.alamy.com/comp/2J6AB3F/abstract-computer-generated-fractal-design-a-fractal-is-a-never-ending-pattern-fractals-are-infinitely-complex-patterns-that-are-self-similar-across-2J6AB3F.jpg
+	https://image.shutterstock.com/image-illustration/fractals-infinitely-complex-patterns-that-260nw-1452888869.jpg
+	https://www.researchgate.net/profile/Yi-Jin-43/publication/332486229/figure/fig3/AS:751420663943168@1556164055016/Basic-construction-of-a-simple-tight-self-similar-affine-fractal-networks-a-is-the.png
+('Pentaflake', 1.8617, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Pentaflake-C_3rd_Iteration_Blue.svg/100px-Pentaflake-C_3rd_Iteration_Blue.svg.png')
+	https://www.pinpng.com/pngs/m/193-1931339_barnsley-fern-fractal-pentaflake-fractal-hd-png-download.png
+	https://image.shutterstock.com/z/stock-vector-sierpinski-pentagon-fifth-iteration-pentaflake-with-center-fractal-vector-snowflake-complex-538251250.jpg
+	https://w0.peakpx.com/wallpaper/770/367/HD-wallpaper-orange-blue-flower-pentagon-shape-fractal-abstraction-abstract.jpg
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/pentaflake-fractal-partial.png
+	https://c8.alamy.com/comp/HH2B6G/sierpinski-pentagon-pentaflake-with-center-fractal-vector-snowflake-HH2B6G.jpg
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/durer-fractal.png
+	https://www.researchgate.net/publication/324097628/figure/fig4/AS:613861854044188@1523367479862/Fractal-pentaflake-obtained-by-CGR-with-k-4000-points.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/pentaflake-fractal-with-25-flakes.png
+('Monkeys tree', 1.8687, 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Monkeytree.svg/100px-Monkeytree.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Monkeytree.svg/1200px-Monkeytree.svg.png
+	https://www.ventrella.com/algorithmic/MonkeyTree.jpg
+	https://www.wallpaperup.com/uploads/wallpapers/2014/01/07/219033/d04bf2f8dc0ec65f169e169a86ff46fe.jpg
+	https://thumbs.dreamstime.com/b/monkey-tee-spiky-detail-puzzle-tree-35818481.jpg
+	https://c0.wallpaperflare.com/preview/425/779/725/vervet-monkey-wildlife-animal.jpg
+	https://image.shutterstock.com/image-photo/close-picture-monkey-tree-260nw-1836081553.jpg
+	http://www.fractalcurves.com/images/27T_Monkeys_Tree.jpg
+	https://www.ventrella.com/algorithmic/BunnyTree.jpg
+('Sierpinski carpet', 1.8928, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Sierpinski_carpet_6.png/100px-Sierpinski_carpet_6.png')
+	https://www.researchgate.net/profile/Yogesh-Joshi-5/publication/267391812/figure/fig2/AS:460304279707649@1486756500062/Fig-2-The-Sierpinski-carpet-has-fractal-dimension-log-8-log-3-18928.png
+	https://fractalfoundation.org/OFCA/Sierpinski_carpet.jpg
+	https://cdn.pixabay.com/photo/2016/04/29/14/18/fractal-1361033_1280.jpg
+	https://www.researchgate.net/profile/F-Prudenzano/publication/281341055/figure/fig1/AS:613883593113660@1523372662836/Sierpinski-carpet-fractal-geometry-a-Square-without-fractal-b-1st-iteration.png
+	https://larryriddle.agnesscott.org/ifs/carpet/carpetLarge.gif
+	https://larryriddle.agnesscott.org/ifs/carpet/carpetSimilarity.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sierpinski_triangle.svg/1200px-Sierpinski_triangle.svg.png
+	https://www.researchgate.net/profile/Robert-Chen-23/publication/250925574/figure/fig1/AS:214050257543168@1428044966521/Stages-in-constructing-Sierpinski-carpet-fractals.png
+('3D Cantor dust', 1.8928, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cantor3D3.png/200px-Cantor3D3.png')
+	https://upload.wikimedia.org/wikipedia/commons/8/83/3D_Cantor_set.jpg
+	https://www.robertdickau.com/cantor3d.png
+	https://www.researchgate.net/profile/Alexander-Balankin/publication/235475627/figure/fig2/AS:393358049595396@1470795275394/Fractal-models-of-porous-media-a-Cantor-dust-D-3-ln-2-ln-3-189-b-Sierpinski_Q320.jpg
+	https://thebrickinthesky.files.wordpress.com/2012/04/cantor2.jpg
+	https://generativelandscapes.files.wordpress.com/2016/10/cantor_render03.jpg
+	https://www.robertdickau.com/cantordust.png
+	https://generativelandscapes.files.wordpress.com/2016/10/cantor_render.jpg?w=960
+	https://miro.medium.com/max/1400/1*EaNYfnkRXxq8jTQXaLUfow.gif
+('Cartesian product of the Cantor set', 1.8928, 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Koch_Cantor_cartesian_product.png/150px-Koch_Cantor_cartesian_product.png')
+	https://www.researchgate.net/profile/Michael-Wilkinson-21/publication/224053708/figure/fig2/AS:302618606882827@1449161306505/In-the-case-where-the-fractal-set-is-a-Cartesian-product-of-two-Cantor-sets-with.png
+	https://upload.wikimedia.org/wikipedia/commons/9/99/Koch_Cantor_cartesian_product.png
+	https://www.researchgate.net/profile/Clifford-Brown-2/publication/226515264/figure/fig7/AS:302344324567044@1449095912347/The-First-Four-Iterations-of-the-Cantor-Square-the-cross-product-of-the-two-Cantor-sets.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d0/AsymmCantor.png
+	https://users.math.yale.edu/public_html/People/frame/Fractals/Extras/Saturn.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cantor_set_in_seven_iterations.svg/729px-Cantor_set_in_seven_iterations.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cantor_set_binary_tree.svg/800px-Cantor_set_binary_tree.svg.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/regular-cantor-fractal.png
+('Boundary of the Lévy C curve', 1.934, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/LevyFractal.png/100px-LevyFractal.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Levy_C_Curve.svg/260px-Levy_C_Curve.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/6/68/Levy_C_Curve_final.png
+	https://www.researchgate.net/profile/Jozsef-Vass/publication/272194073/figure/fig4/AS:295168491180035@1447385060896/Levy-C-Curve-Example-51.png
+	https://mathworld.wolfram.com/images/eps-svg/LevyFractal_650.svg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Levy_C_construction.png/260px-Levy_C_construction.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/L%C3%A9vy%27s_C-curve_%28IFS%29.jpg/200px-L%C3%A9vy%27s_C-curve_%28IFS%29.jpg
+	http://bricault.mit.edu/sites/default/files/images/levycurve1.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/levy-c-curve-cream.png
+('Penrose tiling', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Pen0305c.gif/100px-Pen0305c.gif')
+	https://www.researchgate.net/publication/338463385/figure/fig1/AS:845245839323136@1578533720511/A-finite-section-of-the-Penrose-tiling-constructed-of-two-rhombuses-colored-red-and-blue.png
+	https://www.researchgate.net/publication/338588222/figure/fig1/AS:847441792339968@1579057276735/The-Penrose-tiling-35-The-two-different-tiles-red-and-blue-cover-the-entire.png
+	https://i.pinimg.com/originals/18/94/fb/1894fb6cc1ce676cb24954186e439445.png
+	https://www.researchgate.net/profile/Anu-Jagannathan/publication/227589326/figure/fig11/AS:668282524807171@1536342378409/A-finite-patch-of-the-perfect-Penrose-tiling.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Penrose_Tiling_%28P1_over_P3%29.svg/400px-Penrose_Tiling_%28P1_over_P3%29.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Penrose_Tiling_%28Rhombi%29.svg/500px-Penrose_Tiling_%28Rhombi%29.svg.png
+	https://i.pinimg.com/600x315/28/b9/de/28b9de4cddc24c50f5ea4d518316f6f7.jpg
+	https://cdn.imgbin.com/16/11/22/imgbin-penrose-triangle-penrose-tiling-tessellation-mathematics-geometry-mathematics-wKcFW3LpfyAbCjVg9WFumRedU.jpg
+('Boundary of the Mandelbrot set', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Boundary_mandelbrot_set.png/100px-Boundary_mandelbrot_set.png')
+	https://upload.wikimedia.org/wikipedia/commons/1/14/Boundary_mandelbrot_set.png
+	https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg
+	https://www.researchgate.net/profile/Blair-Macdonald-2/publication/316646767/figure/fig1/AS:489910869204993@1493815261271/Classical-Fractals-A-The-boundary-of-the-Mandelbrot-set-B-The-Koch-Snowflake.png
+	http://1.bp.blogspot.com/-6TyE_n-7w28/TtdyiumCmLI/AAAAAAAAA5Q/0ZXOG44qsuk/s1600/Mandel_zoom_07_satellite.jpg
+	https://i.stack.imgur.com/7HMU1.jpg
+	https://users.math.yale.edu/public_html/People/frame/Fractals/MandelSet/MandelBoundary/MandelBdry.gif
+	https://cdn.wallpapersafari.com/23/85/OABaGN.jpg
+	https://i.pinimg.com/736x/a5/6e/56/a56e565ccf0dee7d293afa6bb5961ef5.jpg
+('Julia set', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Juliadim2.png/150px-Juliadim2.png')
+	http://paulbourke.net/fractals/juliaset/sample3.png
+	https://upload.wikimedia.org/wikipedia/commons/1/17/Julia_set_%28highres_01%29.jpg
+	https://www.karlsims.com/julia-spirals.jpg
+	https://www.mcgoodwin.net/julia/mcmjul1.gif
+	https://images2.alphacoders.com/832/thumb-1920-832232.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Julia_set%2C_plotted_with_Matplotlib.svg/256px-Julia_set%2C_plotted_with_Matplotlib.svg.png
+	https://c4.wallpaperflare.com/wallpaper/452/1018/438/abstract-fractal-julia-set-simple-wallpaper-preview.jpg
+	https://iquilezles.org/articles/juliasets3d/gfx00.jpg
+('Sierpiński curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sierpinski-Curve-3.png/100px-Sierpinski-Curve-3.png')
+	https://www.researchgate.net/profile/Ronald-Goldman/publication/263794674/figure/fig2/AS:635749439397892@1528585886035/Three-famous-fractals-The-Sierpinski-triangle-left-the-C-curve-middle-and-the-Koch.png
+	https://cdn.imgbin.com/18/1/19/imgbin-sierpinski-triangle-sierpi-ski-curve-fractal-sierpinski-carpet-triangle-hGZj7ancH4ctJibLFVi1z1KUz.jpg
+	https://cdn.imgbin.com/23/19/17/imgbin-sierpinski-triangle-fractal-sierpinski-carpet-curve-triangle-GDH0AR7Enzw6Qiar3rR3afwYK.jpg
+	https://www.researchgate.net/profile/Ronald-Goldman/publication/221316579/figure/fig1/AS:305474961461248@1449842314352/Two-examples-of-fractals-Koch-snowflake-left-and-Sierpinski-gasket-right.png
+	https://bentrubewriter.files.wordpress.com/2012/04/hilbertcurve6.png
+	https://cdn.imgbin.com/6/20/25/imgbin-koch-snowflake-sierpinski-triangle-fractal-curve-snowflake-wgtsvjmCGt2qsn48KCLTvvX8a.jpg
+	https://i.pinimg.com/736x/75/60/29/756029fa11be24a7f343d92745bf99ed--sierpinski-triangle-fractal.jpg
+	https://bentrubewriter.files.wordpress.com/2012/04/hilbertcurve5.png
+('Hilbert curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Hilbert_curve_3.svg/100px-Hilbert_curve_3.svg.png')
+	https://bentrubewriter.files.wordpress.com/2012/04/hilbertcurve6.png
+	https://bentrubewriter.files.wordpress.com/2012/04/hilbertcurve5.png
+	https://blogs.mathworks.com/images/steve/2012/hilbert-curve-sample.png
+	https://geekhaus.com/math103_fall2017/wp-content/uploads/2017/09/Hilbert.big_-1.png
+	https://quantum-journal.org/wp-content/uploads/2021/09/Hilbert_curve-1.png
+	http://discspace.org/wp-content/uploads/2013/09/hilbert1.png
+	https://ih1.redbubble.net/image.450394547.1974/pp,504x498-pad,600x600,f8f8f8.u2.jpg
+	https://www.researchgate.net/profile/Yong-Chang-Jiao-2/publication/254017027/figure/fig1/AS:340290700365831@1458143033207/First-four-fractal-iterations-for-the-Hilbert-curve-geometry.png
+('Peano curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Peano_curve.png/100px-Peano_curve.png')
+	https://www.designcoding.net/decoder/wp-content/uploads/2017/08/2017_08_19-gosper2.jpg
+	https://bentrubewriter.files.wordpress.com/2012/04/hilbertcurve6.png
+	https://bentrubewriter.files.wordpress.com/2012/04/hilbertcurve5.png
+	https://www.researchgate.net/profile/Jawad-Ali-16/publication/228327318/figure/fig1/AS:301989977182215@1449011429742/The-first-three-iteration-levels-of-the-Peano-fractal-curve-generation-process.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Peano_Sierpinski_carpet_4.svg/200px-Peano_Sierpinski_carpet_4.svg.png
+	http://scientopia.org/img-archive/goodmath/img_219.jpg
+	https://spatialexperiments.files.wordpress.com/2016/09/peano-curve.png
+	https://parametrichouse.com/wp-content/uploads/2020/05/cover-gosper1.jpg
+('Moore curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Moore-curve-stages-1-through-4.svg/100px-Moore-curve-stages-1-through-4.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/c/c0/Moore-curve-stages-0-through-5.png
+	https://upload.wikimedia.org/wikipedia/commons/6/60/Moore-curve-stages-1-through-4.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/moore-fractal-five-iterations.png
+	https://www.researchgate.net/profile/Rajas-Khokle/publication/270081243/figure/fig1/AS:409368551018497@1474612476831/Zeroth-first-and-second-iterations-of-hilbert-moore-and-modified-moore-fractals.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/moore-curve-blue.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Moore-curve-stages-1-through-4.svg/2048px-Moore-curve-stages-1-through-4.svg.png
+	https://demonstrations.wolfram.com/HilbertAndMooreFractalCurves/img/popup_3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Moore3d-step3.png/200px-Moore3d-step3.png
+('Lebesgue curve or z-order curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Z-order_curve.png/100px-Z-order_curve.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Four-level_Z.svg/1200px-Four-level_Z.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/5/58/Lebesgue-3d-step2.png
+	https://upload.wikimedia.org/wikipedia/commons/a/ad/Z-order_curve.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Z-curve45.svg/400px-Z-curve45.svg.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/z-order-curve-blue.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/z-order-curve-green.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lebesgue-3d-step3.png/300px-Lebesgue-3d-step3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Moser%E2%80%93de_Bruijn_addition.svg/300px-Moser%E2%80%93de_Bruijn_addition.svg.png
+('Dragon curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Courbe_du_dragon.png/150px-Courbe_du_dragon.png')
+	https://mathworld.wolfram.com/images/eps-svg/DragonCurve_950.svg
+	https://bentrubewriter.files.wordpress.com/2012/04/dragon16.png
+	https://bentrubewriter.files.wordpress.com/2012/04/dragoncurvestage13.png
+	https://upload.wikimedia.org/wikipedia/commons/a/ab/Boundary_dragon_curve.png
+	https://upload.wikimedia.org/wikipedia/commons/6/69/Fractal_dragon_curve.jpg
+	https://i.stack.imgur.com/0W85S.png
+	https://hollymath.files.wordpress.com/2013/06/dragon_curve.gif
+	https://i.ytimg.com/vi/Yzfh9wwM0RM/maxresdefault.jpg
+('Terdragon curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Terdragon_curve.png/150px-Terdragon_curve.png')
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/LineConstruction4.png
+	https://cdn.shopify.com/s/files/1/0081/6562/1815/products/terdragon_curve_boak_mr_640_01_800x.png?v=1605948908
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/terdragonLarge.gif
+	https://upload.wikimedia.org/wikipedia/commons/6/69/Fractal_dragon_curve.jpg
+	https://upload.wikimedia.org/wikipedia/commons/3/39/Terdragon_curve.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/three-dragons-fractal-curve-vertical.png
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/terdragonIFS.gif
+	https://larryriddle.agnesscott.org/ifs/heighway/terdragon/sixCopies2.gif
+('Gosper curve', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gosper_curve_3.svg/100px-Gosper_curve_3.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gosper_curve_3.svg/1200px-Gosper_curve_3.svg.png
+	https://www.designcoding.net/decoder/wp-content/uploads/2017/08/2017_08_19-gosper2.jpg
+	https://onlinemathtools.com/images/examples-onlinemathtools/gosper-curve-500x500.png
+	http://www.fractalcurves.com/images/Gosper.png
+	https://parametrichouse.com/wp-content/uploads/2020/05/cover-gosper1.jpg
+	https://spacefillingcurves.files.wordpress.com/2016/09/gosper_curve_1650.gif?w=372&h=120
+	https://cdn.imgbin.com/18/21/0/imgbin-gosper-curve-space-filling-curve-fractal-tessellation-plane-xi2h9U9t9HzKSa34NSKiLJScH.jpg
+	http://www.fractalcurves.com/images/Hilbert_Gosper.jpg
+('Curve filling the Koch snowflake', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mandeltree.svg/100px-Mandeltree.svg.png')
+	https://blogs.scientificamerican.com/blogs/assets/File/Koch_snowflake.png
+	https://bentrubewriter.files.wordpress.com/2012/04/scan0007.jpg
+	https://bentrubewriter.files.wordpress.com/2012/04/kochsnowflake400_1.jpg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d9/KochFlake.svg
+	https://www.researchgate.net/profile/Marcelo-Ribeiro-37/publication/26365833/figure/fig5/AS:310046622797835@1450932283682/Construction-of-the-von-Koch-curve-F-At-each-stage-the-middle-third-of-each-interval.png
+	https://spacefillingcurves.files.wordpress.com/2019/07/branching_snowflake.png?w=662&h=662
+	https://spacefillingcurves.files.wordpress.com/2019/07/teragon-3.jpg?w=662&h=764
+('Sierpiński tetrahedron', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Tetraedre_Sierpinski.png/80px-Tetraedre_Sierpinski.png')
+	https://upload.wikimedia.org/wikipedia/commons/2/29/Sierpinski_pyramid.jpg
+	https://www.researchgate.net/profile/Michael-Gervautz/publication/253835005/figure/fig1/AS:298169612161028@1448100584002/The-CSG-graph-on-the-left-represents-the-Sierpinski-tetrahedron-and-can-be-used-for-ray_Q640.jpg
+	https://static.turbosquid.com/Preview/2014/05/27__05_49_08/fractTetra0.jpge23dfd36-cc33-4a69-bc3c-a00acf23bf8aOriginal.jpg
+	http://www.sierpinskitetrahedron.com/images/sierpinski-tetrahedron-breckenridge.JPG
+	https://momath.org/wp-content/uploads/Sierpinski-tetrahedron.jpg
+	http://tetrahedron.pbworks.com/f/1275845868/tetrahedron5.jpg
+	https://content.instructables.com/ORIG/FIK/WM1U/HM8DHDB1/FIKWM1UHM8DHDB1.jpg?auto=webp
+	http://www.pxleyes.com/images/contests/fractals/fullsize/The-Sierpinski-Tetrahedron-4e652362ca06a_hires.jpg
+('H-fractal', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/H_fractal2.png/150px-H_fractal2.png')
+	https://onlinemathtools.com/images/examples-onlinemathtools/h-fractal-horizontal.png
+	https://mathworld.wolfram.com/images/eps-svg/HFractal_550.svg
+	https://www.orbolt.com/media/assets/H_Assets__h_h_fractal/2/thumbnail-720x540-H_Assets__h_h_fractal-1.png
+	https://onlinefractaltools.com/images/examples-onlinefractaltools/hausdorff-fractal-85-letters.png
+	https://onlinemathtools.com/images/examples-onlinemathtools/h-fractal-5th-order.png
+	https://demonstrations.wolfram.com/HFractal/img/popup_1.png
+	https://upload.wikimedia.org/wikipedia/commons/c/cc/3D_H-fractal.png
+	https://w0.peakpx.com/wallpaper/503/169/HD-wallpaper-game-on-fractals-colors-fractal.jpg
+('Pythagoras tree (fractal)', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/PythagorasTree.png/150px-PythagorasTree.png')
+	https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Animated_self-resembling_Pythagoras_tree_%28fractal%29.webm/1200px--Animated_self-resembling_Pythagoras_tree_%28fractal%29.webm.jpg
+	https://www.geogebra.org/resource/VU4SUVUp/XmlLFzWnmbNBDnKi/material-VU4SUVUp.png
+	https://larryriddle.agnesscott.org/ifs/pythagorean/iteration11.gif
+	https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pythagoras_tree_1_1_13.svg/1200px-Pythagoras_tree_1_1_13.svg.png
+	https://i.ytimg.com/vi/0Ih8LuIJ_go/maxresdefault.jpg
+	http://4.bp.blogspot.com/_qC54jayKgko/RfEoBYEbOxI/AAAAAAAAAOg/4Z9Bh-gKkFQ/s400/pythagoras2.png
+	http://www.malsys.cz/Gallery/GetOutput/WuVSKorl/NLy8GA
+	http://lukelindemann.com/pics/binary9-overlap.png
+('2D Greek cross fractal', 2.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Greek_cross_fractal_stage_4.svg/100px-Greek_cross_fractal_stage_4.svg.png')
+	https://www.pngitem.com/pimgs/m/511-5119575_2d-greek-cross-fractal-hd-png-download.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Greek_cross_2D_1_through_4.svg/1280px-Greek_cross_2D_1_through_4.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/f/f2/Greek_cross_fractal_stage_4.svg
+	https://www.robertdickau.com/Greek_cross_2D_1_through_4.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Greek_cross_fractal_stage_4.svg/1024px-Greek_cross_fractal_stage_4.svg.png
+	https://www.robertdickau.com/Greek_cross_3D_1_through_4.png
+	https://png.pngitem.com/pimgs/s/129-1293802_clipart-cross-wooden-cross-greek-orthodox-cross-png.png
+	https://upload.wikimedia.org/wikipedia/commons/8/88/Greek_cross_2D_1_through_4.png
+('Rössler attractor', 2.01, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Roessler_attractor.png/100px-Roessler_attractor.png')
+	https://www.stsci.edu/~lbradley/seminar/images/lorenz3d.gif
+	https://www.researchgate.net/profile/Michael-Wilkinson-20/publication/2262087/figure/fig1/AS:669430333849603@1536616037553/An-example-of-the-fractal-shape-of-a-strange-attractor-the-Lorenz-attractor-which-may_Q640.jpg
+	http://paulbourke.net/fractals/lorenz/lorenz1.png
+	http://paulbourke.net/fractals/lorenz/lorenz3.png
+	https://thumbs.dreamstime.com/b/optical-art-lorenz-golden-fractal-attractor-two-4851325.jpg
+	https://media.sciencephoto.com/image/f0089416/800wm
+	https://i.pinimg.com/originals/ac/96/6d/ac966d12b41e520636a724ee001af4aa.jpg
+	https://i0.wp.com/geoffboeing.com/wp-content/uploads/2016/12/lorenz-attractor-phase-plane.png?resize=580%2C222&ssl=1
+('Lorenz attractor', 2.06, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lorenz_attractor.png/100px-Lorenz_attractor.png')
+	https://www.researchgate.net/profile/Michael-Wilkinson-20/publication/2262087/figure/fig1/AS:669430333849603@1536616037553/An-example-of-the-fractal-shape-of-a-strange-attractor-the-Lorenz-attractor-which-may_Q640.jpg
+	http://paulbourke.net/fractals/lorenz/lorenz1.png
+	http://paulbourke.net/fractals/lorenz/lorenz3.png
+	http://paulbourke.net/fractals/lorenz/lorenz4.png
+	https://www.imaginary.org/sites/default/files/styles/gallery-full/public/chaos-competition-MPT-2013-small.png?itok=rORmyETs
+	https://www.stsci.edu/~lbradley/seminar/images/lorenz3d.gif
+	http://paulbourke.net/fractals/lorenz/lorenz6.png
+	https://media.sciencephoto.com/image/f0089416/800wm
+('Pyramid surface', 22.3, 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pyramid_surface_fractal.png/200px-Pyramid_surface_fractal.png')
+	https://upload.wikimedia.org/wikipedia/commons/b/b7/Pyramid_surface_fractal.png
+	https://upload.wikimedia.org/wikipedia/commons/a/a8/Fractal_pyramid.jpg
+	https://scx2.b-cdn.net/gfx/news/hires/2012/jhgu6ghdh.jpg
+	https://cdn.thisiswhyimbroke.com/images/fractal-pyramid-3dcustomprintsus-640x533.jpg
+	https://i.etsystatic.com/23851008/r/il/17545e/2430056441/il_fullxfull.2430056441_cu27.jpg
+	https://upload.wikimedia.org/wikipedia/commons/8/84/Pyramid_fractal_surface_iterations.png
+	https://thumbs.dreamstime.com/b/solaris-16604204.jpg
+	https://i.pinimg.com/originals/32/3f/83/323f8316f60918d4eaaf3883f581443b.png
+('Fractal pyramid', 2.3219, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fractal_pyramid.jpg/100px-Fractal_pyramid.jpg')
+	https://cdn.thisiswhyimbroke.com/images/fractal-pyramid-3dcustomprintsus-640x533.jpg
+	https://i.ytimg.com/vi/Nr0FGZYw6Ys/maxresdefault.jpg
+	https://cdn.shopify.com/s/files/1/0455/4096/6422/products/20210505_174454_1024x1024.jpg?v=1620861113
+	https://preview.free3d.com/img/2019/06/2269283480242226712/drh9uf36-900.jpg
+	https://i.etsystatic.com/23851008/r/il/17545e/2430056441/il_570xN.2430056441_cu27.jpg
+	https://cdn.shopify.com/s/files/1/0455/4096/6422/products/20210505_174347_1024x1024.jpg?v=1620861110
+	https://d33wubrfki0l68.cloudfront.net/6dc9e4054b17a7cd6e08b43fc308cb139c6d1742/b9234/images/fractal-pyramid-2-ender-3.jpg
+	https://upload.wikimedia.org/wikipedia/commons/a/a8/Fractal_pyramid.jpg
+('Dodecahedron fractal', 2.3296, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dodecaedron_fractal.jpg/100px-Dodecaedron_fractal.jpg')
+	https://cdna.artstation.com/p/assets/images/images/002/608/766/large/anirban-maji-dodecahedron-depth-of-field.jpg?1463595132
+	http://blog.hvidtfeldts.net/media/dodeca.png
+	http://www.fractalnature.com/PlatonicSolidsFractals/dodekahedronfrac2BP.jpg
+	https://i.pinimg.com/originals/cc/f9/21/ccf92132ffb8ea93c1fe7f7c7dcdb320.jpg
+	https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fa16cab0-039b-484b-95a9-7825bd039369/d4orgkm-689f7dc2-2328-4355-90a2-9fc2c2e357ec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhMTZjYWIwLTAzOWItNDg0Yi05NWE5LTc4MjViZDAzOTM2OVwvZDRvcmdrbS02ODlmN2RjMi0yMzI4LTQzNTUtOTBhMi05ZmMyYzJlMzU3ZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dAI05w8YQFoD_pGGWPHmziNgMfYMwXLY8NbZmZQ6YYY
+	https://i.stack.imgur.com/q6tbm.png
+	https://www.geometrycode.com/wp-content/uploads/2013/05/fractal-dodecahedron.png
+	https://i.stack.imgur.com/GSMBK.png
+('3D quadratic Koch surface (type 1)', 2.3347, 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Koch_quadratic_3d_fractal.svg/150px-Koch_quadratic_3d_fractal.svg.png')
+	https://upload.wikimedia.org/wikipedia/commons/1/1b/Quadratic_Koch_3D_%28type1_stage2%29.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d0/Quadratic_Koch_3D_%28type1%29.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_2.png
+	https://upload.wikimedia.org/wikipedia/commons/0/09/Quadratic_Koch_3D_%28type2_stage2%29.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_1.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://upload.wikimedia.org/wikipedia/commons/d/d9/KochFlake.svg
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/3D_KOCH.png/220px-3D_KOCH.png
+('Apollonian sphere packing', 2.4739, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Apollonian_spheres2.png/100px-Apollonian_spheres2.png')
+	https://upload.wikimedia.org/wikipedia/commons/9/95/Apollonian_spheres.jpg
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/674x501_7082039_2994475_1459321195_1_0.jpg
+	https://e7.pngegg.com/pngimages/775/744/png-clipart-apollonian-gasket-fractal-apollonian-sphere-packing-mathematics-apollonian-sphere-packing-monochrome-symmetry-thumbnail.png
+	http://paulbourke.net/fractals/apollony/3d1.jpg
+	https://d3i71xaburhd42.cloudfront.net/d46120611f69ae18be2c87316462acd30d89c8ab/2-Figure2-1.png
+	https://www.researchgate.net/publication/326677380/figure/fig8/AS:868373802008590@1584047856931/Apollonian-sphere-packing-initial-4-spheres-a-same-perspective-of-the-final-packing_Q320.jpg
+	https://cdn.imgbin.com/13/2/20/imgbin-apollonian-gasket-apollonian-sphere-packing-fractal-packing-problems-circle-circle-KpfS8wdEsNwqe4WhahXS8tSd5.jpg
+	http://paulbourke.net/fractals/apollony/3d4.jpg
+('3D quadratic Koch surface (type 2)', 2.5, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Quadratic_Koch_3D_%28type2_stage2%29.png/150px-Quadratic_Koch_3D_%28type2_stage2%29.png')
+	https://upload.wikimedia.org/wikipedia/commons/0/09/Quadratic_Koch_3D_%28type2_stage2%29.png
+	https://upload.wikimedia.org/wikipedia/commons/f/ff/Quadratic_Koch_3D_%28type2_stage1%29.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_2.png
+	https://www.robertdickau.com/koch-quad-surface-type2-0-through-2.png
+	https://www.robertdickau.com/koch-quad-surface-type2-3.png
+	https://demonstrations.wolfram.com/SquareKochFractalCurves/img/popup_1.png
+	https://www.robertdickau.com/koch_surface_0_through_3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+('Jerusalem cube', 2.529, 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jerusalem_Cube.jpg/150px-Jerusalem_Cube.jpg')
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/710x528_1648466_1516912_1543053440_1_0.jpg
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/674x501_1648455_1516912_1543053440_1_0.jpg
+	http://3.bp.blogspot.com/-XXW4sX5M-6w/Tk1HcU1tZbI/AAAAAAAAAG0/PMKvLK9g49M/s1600/Jerusalem_Cube_1600px.jpg
+	https://www.robertdickau.com/j-cube-0-3.png
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/710x528_1648465_1516912_1543053440_1_0.jpg
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/710x528_1753584_842442_1542473787_1_0.jpg
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/674x501_8367263_1516912_1459341749_1_0.jpg
+	https://www.robertdickau.com/j-square-0-4.png
+('Icosahedron fractal', 2.5819, 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Icosaedron_fractal.jpg/100px-Icosaedron_fractal.jpg')
+	https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fa16cab0-039b-484b-95a9-7825bd039369/d4ld2cd-663b6f98-8c8a-49e9-b547-1408013e8e3e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhMTZjYWIwLTAzOWItNDg0Yi05NWE5LTc4MjViZDAzOTM2OVwvZDRsZDJjZC02NjNiNmY5OC04YzhhLTQ5ZTktYjU0Ny0xNDA4MDEzZThlM2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Yq5fpKh6lF9Ru1d27ffY7g2mNpCLfPRb0DLpmP5349Q
+	https://demonstrations.wolfram.com/IcosahedronFractal/img/popup_1.png
+	https://live.staticflickr.com/5006/5374746127_e96b2d8c43_b.jpg
+	http://www.fractalnature.com/PlatonicSolidsFractals/ikosahedronfrac3.jpg
+	https://i.etsystatic.com/7101039/r/il/4ffae3/1104774620/il_570xN.1104774620_d08b.jpg
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/710x528_217329_324842_1459303097_1_0.jpg
+	https://images1.sw-cdn.net/cdn-cgi/image/quality=85,gravity=auto,format=auto,fit=scale-down,width=1920/product/picture/710x528_728315_783644_1459314335_1_0.jpg
+	https://i.pinimg.com/originals/b1/fc/b0/b1fcb00a44c67ff367431d17686717d4.jpg
+('3D Greek cross fractal', 2.5849, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Greek_cross_3D_1_through_4.png/200px-Greek_cross_3D_1_through_4.png')
+	https://upload.wikimedia.org/wikipedia/commons/a/a9/Greek_cross_3D_1_through_4.png
+	https://www.robertdickau.com/Greek_cross_3D_1_through_4.png
+	https://upload.wikimedia.org/wikipedia/commons/3/39/Greek_cross_3D.png
+	https://www.pngitem.com/pimgs/m/511-5119575_2d-greek-cross-fractal-hd-png-download.png
+	https://www.robertdickau.com/Greek_cross_2D_1_through_4.png
+	https://png.pngitem.com/pimgs/s/511-5119575_2d-greek-cross-fractal-hd-png-download.png
+	https://cdn3.vectorstock.com/i/1000x1000/46/07/fractal-modern-3d-greek-seamless-pattern-vector-22504607.jpg
+	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fncomms4266/MediaObjects/41467_2014_Article_BFncomms4266_Fig1_HTML.jpg
+('Octahedron fractal', 2.5849, 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Octaedron_fractal.jpg/100px-Octaedron_fractal.jpg')
+	https://nocache-nocookies.digitalgott.com/gallery/1/141_25_02_10_4_04_23.jpeg
+	https://live.staticflickr.com/5162/5371928685_dbd980db42_b.jpg
+	https://upload.wikimedia.org/wikipedia/commons/e/ef/OctahedronFractal.png
+	https://demonstrations.wolfram.com/OctahedronFractal/img/popup_1.png
+	https://upload.wikimedia.org/wikipedia/commons/d/da/OctahedronFractal2.png
+	https://www.publicdomainpictures.net/pictures/260000/nahled/fractal-octahedron.jpg
+	https://www.researchgate.net/profile/Hv-Jansen/publication/236582257/figure/fig5/AS:668351571451928@1536358840744/Octahedral-fractal-fabrication-scheme-in-the-crystalline-silicon-start-with-surface.ppm
+	https://thumbs.dreamstime.com/t/fractal-d-video-clip-outline-spinning-rotating-blue-octahedron-shape-green-yellow-background-fractal-video-210678806.jpg
+('von Koch surface', 2.5849, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Koch_surface_3.png/150px-Koch_surface_3.png')
+	https://www.robertdickau.com/koch-quad-surface-type2-3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/1200px-KochFlake.svg.png
+	https://www.robertdickau.com/koch_surface_0_through_3.png
+	https://www.researchgate.net/profile/Jorge-Velasco-Hernandez/publication/234164886/figure/fig1/AS:281596759429174@1444149307751/Fractal-fracture-idealizations-a-Von-Koch-curve-and-b-random-Von-Koch-curve.png
+	https://www.robertdickau.com/koch-square-surface-0-through-3.png
+	https://www.researchgate.net/profile/Marcelo-Ribeiro-37/publication/26365833/figure/fig5/AS:310046622797835@1450932283682/Construction-of-the-von-Koch-curve-F-At-each-stage-the-middle-third-of-each-interval.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/640px-KochFlake.svg.png
+	https://demonstrations.wolfram.com/TriangularKochFractalSurface/img/popup_3.png
+('Von Koch in 3D', 2.7095, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Koch_Curve_in_Three_Dimensions_%28%22Delta%22_fractal%29.jpg/100px-Koch_Curve_in_Three_Dimensions_%28%22Delta%22_fractal%29.jpg')
+	https://i.ytimg.com/vi/oL3WHSzHjlM/sddefault.jpg
+	https://i.ytimg.com/vi/6l3Qj3IOcZw/maxresdefault.jpg
+	https://fractalfoundation.org/wp-content/uploads/2010/05/kochprog440.jpg
+	https://i.pinimg.com/originals/69/a0/4d/69a04d63c831bd66dc184153fc863a5b.jpg
+	https://miro.medium.com/max/600/0*CiCiYgnfaMxuiEi3
+	https://geekhaus.com/math103_fall2017/wp-content/uploads/2017/09/koch-snowflake.jpg
+	https://www.researchgate.net/profile/Mahmood-Yassen/publication/305993823/figure/fig1/AS:392923490340865@1470691668275/The-structure-of-Koch-Snowflake-fractal-geometry-with-different-iteration-levels.png
+	https://miro.medium.com/max/1024/0*uzp049XzX8ZHcHIm
+('Menger sponge', 2.7268, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Menger.png/100px-Menger.png')
+	https://upload.wikimedia.org/wikipedia/commons/5/52/Menger-Schwamm-farbig.png
+	https://static.scientificamerican.com/blogs/cache/file/CA6C2B6D-0D7B-4EF7-8C3A24D7959F8E5A_source.jpg?w=590&h=800&CDB5F9C5-E4BC-454B-ABE2F0800A9D7209
+	https://upload.wikimedia.org/wikipedia/commons/7/7d/Menger_Sponge_Fractal.jpg
+	https://c4.wallpaperflare.com/wallpaper/630/457/189/fractal-mandelbrot-the-menger-sponge-wallpaper-preview.jpg
+	https://images6.alphacoders.com/884/884403.png
+	http://www.skytopia.com/project/fractal/new/q85/menger-persp3-small.jpg
+	https://images.wallpapersden.com/image/download/fractal-menger-sponge-flight_aG1uapSZmpqtpaSklGZuZ2WtZmVtZWZmaW0.jpg
+	https://thumbs.dreamstime.com/z/square-structure-futuristic-cubes-geometric-shapes-menger-sponge-background-d-illustration-menger-sponge-square-structure-fractal-242307574.jpg
+('3D Hilbert curve', 3.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Hilbert3d-step3.png/100px-Hilbert3d-step3.png')
+	https://www.researchgate.net/profile/Aimee_McNamara/publication/311845840/figure/fig12/AS:692916989227024@1542215692894/Illustration-of-a-3D-Hilbert-space-filling-curve-for-4-iterations.png
+	https://i.pinimg.com/originals/0f/c7/81/0fc781ab1d6c372751deebdaba0a36aa.jpg
+	https://geekhaus.com/math103_fall2017/wp-content/uploads/2017/09/Hilbert.big_-1.png
+	http://discspace.org/wp-content/uploads/2013/09/hilbert1.png
+	https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/3cf5c0d0fed26c9ff4fc10d156bdd169/large.PNG
+	https://i.ytimg.com/vi/ACkBTqdNHdE/hqdefault.jpg
+	https://demonstrations.wolfram.com/HilbertAndMoore3DFractalCurves/img/popup_3.png
+	https://blogs.mathworks.com/images/steve/2012/hilbert-curve-sample.png
+('3D Lebesgue curve', 3.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lebesgue-3d-step3.png/100px-Lebesgue-3d-step3.png')
+	https://www.geogebra.org/resource/d6fmjk4q/iHBwLtEGVHgm6ZAs/material-d6fmjk4q.png
+	https://demonstrations.wolfram.com/Lebesgue3DCurves/img/popup_3.png
+	https://demonstrations.wolfram.com/Lebesgue3DCurves/img/popup_2.png
+	https://upload.wikimedia.org/wikipedia/commons/5/58/Lebesgue-3d-step2.png
+	https://upload.wikimedia.org/wikipedia/commons/d/da/Lebesgue-3d-step3.png
+	https://demonstrations.wolfram.com/Lebesgue3DCurves/img/popup_1.png
+	https://demonstrations.wolfram.com/HilbertAndMoore3DFractalCurves/img/popup_3.png
+	https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Four-level_Z.svg/800px-Four-level_Z.svg.png
+('3D Moore curve', 3.0, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Moore3d-step3.png/100px-Moore3d-step3.png')
