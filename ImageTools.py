@@ -11,6 +11,9 @@ def scaleImage(img, new_size, keep_aspect_ratio=False):
     returns | scaled image
     """
     w, h = new_size
+    w = int(w)
+    h = int(h)
+    new_size = (w, h)
 
     if not keep_aspect_ratio:
         return img.resize(new_size, Image.ANTIALIAS)

@@ -2,21 +2,33 @@ import requests
 import re
 import ImageTools
 from serpapi import GoogleSearch
-import time
 from PIL import Image, UnidentifiedImageError
-from multiprocessing import Process
 
 
-def normalize_html(s):
-    links = re.findall(r'(<a.*>(.*)<\/a>)', s) # finds all a tags, with a matching group for internal text
+def normalize_html(text):
+    """
+    normalize_html() | removes <a> <\\a> tags from around links,
+        and removes span tags
+    text | (str) text to be normalized
+    returns | (str)
+    """
+    links = re.findall(r'(<a.*>(.*)<\/a>)', text) # finds all a tags, with a matching group for internal text
     for link in links:
-        s = s.replace(link[0], link[1])
+        text = text.replace(link[0], link[1])
 
-    spans = re.sub(r'(<span.*?>(.*<\/span>){0,1})', "", s) # finds all span tags
+    spans = re.sub(r'(<span.*?>(.*<\/span>){0,1})', "", text) # finds all span tags
 
-    return s
+    return text
 
 def normalize_float(s):
+    """
+    normalize_float() | extracts a float from a string that may contain html
+        removes tags
+        removes special characters
+        removes non number characters
+    s | (str) text containing a float
+    returns | (float) if a valid float exits, None otherwise
+    """
     s = re.sub(r'<.*>', "", s) # removes any html segments
     s = re.sub(r'±.*', "", s) # removes any uncertainity measures
     s = re.sub(r'(?:[^\d.]|\.\.\.)', "", s) # removes any remaining non-number characters and ...
@@ -27,18 +39,32 @@ def normalize_float(s):
         return None
 
 def parse_image_html(s):
-
+    """
+    parse_image_html() | gets the URL for an image contained within
+        an html segment
+    s | (str) text containing an html image
+    returns | (str) if an image link was found, None otherwise
+    """
     match = re.search(r'<img.*src="(.*?)"', s)
 
     if match is None:
-        return match
+        return None
 
     return "https:" + match.group(1)
 
 def get_image_from_url(url):
+    """
+    get_image_from_url() | downloads an image from the internet given its url
+    url | the url of the iamge to be downloaded
+    returns | (PIL.Image) if the Image could be downloaded, None if not
+    """
     if url is None:
         return None
+
+    # disguise as actual user to avoid Forbidden response
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0" }
+    
+    # get a response via https, if that fails (the site it http, or invalid cert), try without verifying
     res = None
     try:
         res = requests.get(url, stream=True, headers=headers)
@@ -55,6 +81,11 @@ def get_image_from_url(url):
     return None
 
 def get_alternative_images(name):
+    """
+    get_alternative_images() | gets alternative images from google given
+        the image name
+    returns | list( (str) ) list of links to the alternative images
+    """
     name += " HD fractal"
 
     print("="*20)
@@ -76,6 +107,11 @@ def get_alternative_images(name):
     return [image["original"] for image in results["images_results"][:8] if "original" in image]
 
 def format_file_name(name):
+    """
+    format_file_name() | removes all characters that cannot be in a file
+    name | (str) the name of the file
+    returns | (str) formatted file name
+    """
     name = re.sub(r'[^\da-zA-Z_ ]', "", name)
     name = "_".join(name.split())
     return name
@@ -87,8 +123,10 @@ def main():
     if res.status_code == 200:
         html = res.text
 
+        # matches the fractal name, power and image list
         match = re.findall(r'<tr>\n[\s\S\n]*?<\/td>\n.*?>(.*)<\/td>\n<td>(.*)<.*\n(.*)', html)
 
+        # gets data and normalizes text
         fractals = []
         for i in range(len(match)):
             m = match[i]
@@ -103,10 +141,12 @@ def main():
 
         with open("results.txt", "w", encoding="utf-8") as f:
             for fractal in fractals:
+                # write name, power, link to file
                 print(fractal)
                 f.write(str(fractal))
                 f.write("\n")
 
+                # write alt links to file
                 alts = get_alternative_images(fractal[0])
                 for alt in alts:
                     f.write("\t")
