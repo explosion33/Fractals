@@ -57,26 +57,3 @@ def check_similarity(img1, img2):
 
 def to_mono(img):
     return img.convert("1")
-
-
-if "__main__" in __name__:
-    img = Image.open("test.png")
-    img2 = scaleImage(img, (1200,500))
-    img3 = scaleImage(img, (1200,500), keep_aspect_ratio=True)
-
-    img2.save("non_aspect.png")
-    img3.save("aspect.png")
-
-    print(check_similarity(img, img3)*100, "%")
-
-    img = Image.open("bw_before1.png")
-    img2 = Image.open("bw_before2.jpg")
-
-    img = to_mono(img)
-    img2 = to_mono(img2)
-
-    img3 = Image.open("julia.png")
-
-    print(check_similarity(img2, img3)*100, "%")
-
-

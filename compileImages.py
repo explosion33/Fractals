@@ -7,7 +7,7 @@ from PIL import Image, UnidentifiedImageError
 
 def normalize_html(text):
     """
-    normalize_html() | removes <a> <\\a> tags from around links,
+    normalize_html() | removes <a> </a> tags from around links,
         and removes span tags
     text | (str) text to be normalized
     returns | (str)
@@ -16,7 +16,7 @@ def normalize_html(text):
     for link in links:
         text = text.replace(link[0], link[1])
 
-    spans = re.sub(r'(<span.*?>(.*<\/span>){0,1})', "", text) # finds all span tags
+    text = re.sub(r'(<span.*?>(.*<\/span>){0,1})', "", text) # finds all span tags
 
     return text
 
@@ -29,6 +29,7 @@ def normalize_float(s):
     s | (str) text containing a float
     returns | (float) if a valid float exits, None otherwise
     """
+    s = s.strip()
     s = re.sub(r'<.*>', "", s) # removes any html segments
     s = re.sub(r'±.*', "", s) # removes any uncertainity measures
     s = re.sub(r'(?:[^\d.]|\.\.\.)', "", s) # removes any remaining non-number characters and ...

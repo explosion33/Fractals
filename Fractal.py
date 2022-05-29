@@ -123,8 +123,6 @@ class Fractal:
             to append to
         returns | list((float,float)) list of points (scaling factor, #pixels)
         """
-        if times == 5:
-            print(points)
         if times <= 0:
             return points
         
@@ -151,7 +149,7 @@ class Fractal:
 
             total += (y2-y1)**2
         
-        return total / len(point)
+        return total / len(points)
 
     def _calculate_best_slope(self, points):
         """
@@ -188,23 +186,22 @@ class Fractal:
         slope = 0
         max_error = self._get_mean_squared_error(points, slope, y_intercept)
         while True:
-            slope += 0.01
+            slope += 0.0001
             error = self._get_mean_squared_error(points, slope, y_intercept)
             if error > max_error:
                 break
             max_error = error
 
         while True:
-            slope -= 0.01
+            slope -= 0.0001
             error = self._get_mean_squared_error(points, slope, y_intercept)
             if error > max_error:
                 break
             max_error = error
 
-        print(y_intercept)
         return slope
         
-    def calculate_power(self, starting_scale=0.6, increase_by=0.2, number_of_times=15):
+    def calculate_power(self, starting_scale=1, increase_by=0.2, number_of_times=15):
         """
         calculate_power() | calculates the power of the Fractal using
             Hausdorff's method
@@ -217,6 +214,8 @@ class Fractal:
 
         logs = []
         for point in data:
+            if point[1] == 0:
+                return 0
             logs.append((math.log(point[0]), math.log(point[1])))
 
         print(data, logs)
