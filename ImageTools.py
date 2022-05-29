@@ -56,4 +56,9 @@ def check_similarity(img1, img2):
 
 
 def to_mono(img):
-    return img.convert("1")
+    return img.convert("L")
+
+
+if "__main__" in __name__:
+    img = Image.open("test_imgs/Crown.png")
+    to_mono(img).show()

@@ -1,7 +1,8 @@
 import math
-from turtle import left
 from PIL import Image
 from ImageTools import scaleImage
+
+from multiprocessing import Process, Array
 
 class Fractal:
     def __init__(self, path) -> None:
@@ -112,26 +113,80 @@ class Fractal:
                             self._vis_img.putpixel((px,py), mixed) 
         return count
 
-    def _get_scaling_data(self, inc, times, curr_factor=1, points=[]):
+    def _get_num_places(self, x):
         """
-        _get_scaling_data() | performs the scale up / count pixels operation
-            for the specified amount of scales
-        inc         | (float) amount to increment each subsequent scale by
-        times       | (int) number of times to scale
-        curr_factor | (float) (default=1) the scaling factor to start at
-        points      | list((float,float)) (default=[]) list of points
-            to append to
-        returns | list((float,float)) list of points (scaling factor, #pixels)
+        getNumPlaces() | gets the number of decimal places in a float/integer
+        x | (float) (int)
+        returns (int)
         """
-        if times <= 0:
-            return points
-        
-        w, h = self._img.size
-        scaledImg = scaleImage(self._img, (w*curr_factor, h*curr_factor))
-        count = self._count_non_background_pixels(scaledImg)
-        points.append((curr_factor, count))
+        if int(x) == x:
+            return 0
+        return len(str(x)) - len(str(int(x))) - 1
 
-        return self._get_scaling_data(inc, times-1, curr_factor+inc, points)
+    def _range_float(self, start, stop, step):
+        """
+        rangeF() | creates a list of numbers from start to stop by step
+        start | (float) inclusive
+        stop  | (float) exclusive
+        step  | (float)
+        returns (list( (float) ))
+        """
+        numplaces = self._get_num_places(step)
+        l = []
+        while True:
+            l.append(start)
+            start += step
+            start = round(start,numplaces)
+            if start >= stop:
+                return l
+
+    def _scale_count_process(self, factor, array):
+        """
+        _scale_count_process() | performs one step in the Hausdorff algorithm
+            by scaling an image by a factor then counting the number of pixels
+            modified to work in a Process object
+        factor  | (float) factor to scale by
+        array   | (multiprocessing.Array) shared memory to act as output
+        returns | None | adds data to array [(float) factor, (float), count]
+        """
+        w, h = self._img.size
+        scaledImg = scaleImage(self._img, (w*factor, h*factor))
+        count = self._count_non_background_pixels(scaledImg)
+
+        array[0] = factor
+        array[1] = count
+        return None
+    
+    def _get_scaling_data_process(self, start, stop, inc):
+        """
+        _get_scaling_data_process() | gets the scaling data for the fractal
+            in a bunch of background processes. Scaling from start to stop,
+            with an increment of inc
+        start | (float) starting scale (inclusive)
+        stop  | (float) ending scale   (exclusive)
+        inc   | (float) amount to increment by
+        """
+        factors = self._range_float(start, stop, inc)
+        procs = []
+        for factor in factors:
+            arr = Array('d', range(2))
+            p = Process(target=self._scale_count_process, args=(factor, arr))
+            p.start()
+            
+            procs.append((p, arr))
+        
+        print("All Processes Started")
+        i = 0
+        data = []
+        for proc in procs:
+            proc[0].join()
+            arr = proc[1]
+            data.append((arr[0], arr[1]))
+            i += 1
+            print(f"    {i}/{len(procs)}")
+            
+
+        return data
 
     def _get_mean_squared_error(self, points, slope, intercept):
         """
@@ -201,7 +256,7 @@ class Fractal:
 
         return slope
         
-    def calculate_power(self, starting_scale=1, increase_by=0.2, number_of_times=15):
+    def calculate_power(self, start=1, stop=5, inc=0.2):
         """
         calculate_power() | calculates the power of the Fractal using
             Hausdorff's method
@@ -210,7 +265,7 @@ class Fractal:
         number_of_times | the number of times to scale the fractal and count
         returns | (float) power of the Fractal
         """
-        data = self._get_scaling_data(increase_by, number_of_times, increase_by, [])
+        data = self._get_scaling_data_process(start, stop, inc)
 
         logs = []
         for point in data:
@@ -234,11 +289,9 @@ class Fractal:
 
 
 if "__main__" in __name__:
-    paths = ["(1.585)Sierpiski.png", "(2.0)test1.png", "circle.png"]#, "(2.0)test2.png", "(0.5)test3.png"]
 
+    f = Fractal("test_imgs/circle.png")
 
-    for path in paths:
-        f = Fractal(path)
+    #print(f._get_scaling_data_process(1,5,0.2))
 
-        print(f.calculate_power())
-        f.visualize_counting().show()
+    print(f.calculate_power(0.6, 5.2, 0.2))
