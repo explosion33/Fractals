@@ -1,15 +1,14 @@
 import math
-from matplotlib import scale
-
 import numpy as np
 import pandas as pd
 from PIL import Image
+from multiprocessing import Process, Array
 
 from ImageTools import check_similarity, scaleImage, to_mono
 import compileImages
 from Fractal import Fractal
 
-# add test for compileImages.get_alternative_images
+# TODO add test for compileImages.get_alternative_images
 
 # taken from CSE163 utils
 TOLERANCE = 0.001
@@ -92,14 +91,13 @@ def test_image_tools():
     blue = Image.open("test_imgs/blue.png")
     assert_equals(0, check_similarity(red, blue))
 
-    
     circle_scaled = Image.open("test_imgs/circle_scaled.png")
-    circle_scaled_aspect = Image.open("test_imgs/circle_scaled_aspect.png")
+    circle_scaled_asp = Image.open("test_imgs/circle_scaled_aspect.png")
 
-    circle_scaled_calc = scaleImage(circle, (1200,500))
-    circle_aspect_calc = scaleImage(circle, (1200,500), keep_aspect_ratio=True)
+    circle_scaled_calc = scaleImage(circle, (1200, 500))
+    circle_asp_calc = scaleImage(circle, (1200, 500), keep_aspect_ratio=True)
 
-    assert_equals(1, check_similarity(circle_scaled_aspect, circle_aspect_calc))
+    assert_equals(1, check_similarity(circle_scaled_asp, circle_asp_calc))
     assert_equals(1, check_similarity(circle_scaled, circle_scaled_calc))
 
     circle_mono = Image.open("test_imgs/circle_mono.png")
@@ -140,9 +138,9 @@ def test_compile_images():
     assert_equals(1, check_similarity(google, downloaded))
 
     # format_file_name
-    text = compileImages.format_file_name("test\image")
+    text = compileImages.format_file_name("test\\image")
     assert_equals("testimage", text)
-    text = compileImages.format_file_name("test\ image")
+    text = compileImages.format_file_name("test\\ image")
     assert_equals("test_image", text)
     text = compileImages.format_file_name("C:\\importantstuff\\test")
     assert_equals("Cimportantstufftest", text)
@@ -153,21 +151,41 @@ def test_fractal():
     f = Fractal("test_imgs/circle.png")
     f2 = Fractal("test_imgs/fractal.png")
 
-    assert_equals((0,0,0,255), f._get_background_color(f._img))
+    assert_equals((0, 0, 0, 255), f._get_background_color(f._img))
 
-    assert_equals([0,1, 1000, 1001], f._get_square_indicies(f._img, 0,0))
-    assert_equals([999,1999], f._get_square_indicies(f._img, 999,0))
+    assert_equals([0, 1, 1000, 1001], f._get_square_indicies(f._img, 0, 0))
+    assert_equals([999, 1999], f._get_square_indicies(f._img, 999, 0))
 
     assert_equals(1, f2._count_non_background_pixels(f2._img))
 
-    assert_equals([(2,11)], f2._get_scaling_data(0, 1, 2, []))
-    assert_equals([(1,1)], f2._get_scaling_data(0, 1, 1, []))
+    assert_equals(0, f._get_num_places(10))
+    assert_equals(1, f._get_num_places(0.1))
+    assert_equals(2, f._get_num_places(0.01))
+    assert_equals(3, f._get_num_places(0.001))
 
-    assert_equals(0, f._get_mean_squared_error([(0,0), (1,1), (2,2)], 1, 0))
-    assert_equals(1, f._get_mean_squared_error([(1,1)], 0, 0))
+    assert_equals([0, 0.2, 0.4, 0.6, 0.8], f._range_float(0, 1, 0.2))
+    assert_equals([0, 0.1, 0.2, 0.3, 0.4], f._range_float(0, 0.5, 0.1))
 
-    assert_equals(1.0, f._calculate_best_slope([(0,0), (1,1), (2,2)]))
-    assert_equals(2.0, f._calculate_best_slope([(0,0), (1,2), (2,4)]))
+    arr = Array('d', range(2))
+    p = Process(target=f2._scale_count_process, args=(2, arr))
+    p.start()
+    p.join()
+    assert_equals([2, 11], list(arr))
+
+    arr = Array('d', range(2))
+    p = Process(target=f2._scale_count_process, args=(1, arr))
+    p.start()
+    p.join()
+    assert_equals([1, 1], list(arr))
+
+    assert_equals([(2, 11)], f2._get_scaling_data_process(2, 2, 1))
+    assert_equals([(1, 1)], f2._get_scaling_data_process(1, 1, 1))
+
+    assert_equals(0, f._get_mean_squared_error([(0, 0), (1, 1), (2, 2)], 1, 0))
+    assert_equals(1, f._get_mean_squared_error([(1, 1)], 0, 0))
+
+    assert_equals(1.0, f._calculate_best_slope([(0, 0), (1, 1), (2, 2)]))
+    assert_equals(2.0, f._calculate_best_slope([(0, 0), (1, 2), (2, 4)]))
 
     f = Fractal("test_imgs/blue.png")
     assert_equals(0, f.calculate_power())
@@ -177,6 +195,7 @@ def main():
     test_image_tools()
     test_compile_images()
     test_fractal()
+
 
 if "__main__" in __name__:
     main()

@@ -12,13 +12,16 @@ def normalize_html(text):
     text | (str) text to be normalized
     returns | (str)
     """
-    links = re.findall(r'(<a.*>(.*)<\/a>)', text) # finds all a tags, with a matching group for internal text
+    # finds all a tags, with a matching group for internal text
+    links = re.findall(r'(<a.*>(.*)<\/a>)', text)
     for link in links:
         text = text.replace(link[0], link[1])
 
-    text = re.sub(r'(<span.*?>(.*<\/span>){0,1})', "", text) # finds all span tags
+    # finds all span tags
+    text = re.sub(r'(<span.*?>(.*<\/span>){0,1})', "", text)
 
     return text
+
 
 def normalize_float(s):
     """
@@ -30,14 +33,18 @@ def normalize_float(s):
     returns | (float) if a valid float exits, None otherwise
     """
     s = s.strip()
-    s = re.sub(r'<.*>', "", s) # removes any html segments
-    s = re.sub(r'±.*', "", s) # removes any uncertainity measures
-    s = re.sub(r'(?:[^\d.]|\.\.\.)', "", s) # removes any remaining non-number characters and ...
+    # removes any html segments
+    s = re.sub(r'<.*>', "", s)
+    # removes any uncertainity measures
+    s = re.sub(r'±.*', "", s)
+    # removes any remaining non-number characters and "..."
+    s = re.sub(r'(?:[^\d.]|\.\.\.)', "", s)
 
     try:
         return float(s)
     except(ValueError):
         return None
+
 
 def parse_image_html(s):
     """
@@ -53,6 +60,7 @@ def parse_image_html(s):
 
     return "https:" + match.group(1)
 
+
 def get_image_from_url(url):
     """
     get_image_from_url() | downloads an image from the internet given its url
@@ -63,13 +71,17 @@ def get_image_from_url(url):
         return None
 
     # disguise as actual user to avoid Forbidden response
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0" }
-    
-    # get a response via https, if that fails (the site it http, or invalid cert), try without verifying
+    headers = {
+        "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0)"
+                       "Gecko/20100101 Firefox/100.0")
+    }
+
+    # get a response via https, if that fails
+    # (the site it http, or invalid cert), try without verifying
     res = None
     try:
         res = requests.get(url, stream=True, headers=headers)
-    except:
+    except(requests.Timeout):
         res = requests.get(url, stream=True, verify=False, headers=headers)
 
     if res.status_code == 200:
@@ -80,6 +92,7 @@ def get_image_from_url(url):
 
     print(res.status_code, url)
     return None
+
 
 def get_alternative_images(name):
     """
@@ -93,19 +106,22 @@ def get_alternative_images(name):
     print(name)
     print("="*20)
 
+    API = "56c62a554bf4164832a616e8257bd35446e610c4322ebc37a6a42cd5cdf5c10f"
     params = {
-    "engine": "google",
-    "ijn": "0",
-    "q": name,
-    "google_domain": "google.com",
-    "tbm": "isch",
-    "api_key": "56c62a554bf4164832a616e8257bd35446e610c4322ebc37a6a42cd5cdf5c10f"
+        "engine": "google",
+        "ijn": "0",
+        "q": name,
+        "google_domain": "google.com",
+        "tbm": "isch",
+        "api_key": API
     }
 
     search = GoogleSearch(params)
     results = search.get_dict()
 
-    return [image["original"] for image in results["images_results"][:8] if "original" in image]
+    first8 = results["images_results"][:8]
+    return [image["original"] for image in first8 if "original" in image]
+
 
 def format_file_name(name):
     """
@@ -125,7 +141,8 @@ def main():
         html = res.text
 
         # matches the fractal name, power and image list
-        match = re.findall(r'<tr>\n[\s\S\n]*?<\/td>\n.*?>(.*)<\/td>\n<td>(.*)<.*\n(.*)', html)
+        pat = r'<tr>\n[\s\S\n]*?<\/td>\n.*?>(.*)<\/td>\n<td>(.*)<.*\n(.*)'
+        match = re.findall(pat, html)
 
         # gets data and normalizes text
         fractals = []
@@ -138,7 +155,6 @@ def main():
                 name = normalize_html(m[1])
                 image = parse_image_html(m[2])
                 fractals.append((name, power, image))
-
 
         with open("results.txt", "w", encoding="utf-8") as f:
             for fractal in fractals:
@@ -153,7 +169,6 @@ def main():
                     f.write("\t")
                     f.write(alt)
                     f.write("\n")
-        
 
                 # save to folder
                 name, power, link = fractal
@@ -170,15 +185,13 @@ def main():
                     img = get_image_from_url(link)
                     if img is not None:
                         img = ImageTools.to_mono(img)
-                        img.save("imgs/(" + str(power) + ")" + name + "_" + str(i) + ".png")
+                        img.save(f"imgs/({power}){name}_{i}.png")
                         i += 1
 
 
-
-                
-
-        
-
 if "__main__" in __name__:
-    WIKI_URL = "https://en.wikipedia.org/wiki/List_of_fractals_by_Hausdorff_dimension"
+    WIKI_URL = (
+        "https://en.wikipedia.org/"
+        "wiki/List_of_fractals_by_Hausdorff_dimension"
+    )
     main()

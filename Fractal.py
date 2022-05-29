@@ -1,8 +1,8 @@
 import math
 from PIL import Image
+from multiprocessing import Process, Array
 from ImageTools import scaleImage
 
-from multiprocessing import Process, Array
 
 class Fractal:
     def __init__(self, path) -> None:
@@ -11,12 +11,13 @@ class Fractal:
 
         self._vis_img = None
 
-        self._OVERLAY_COLOR = (255,255,0,100)
+        self._OVERLAY_COLOR = (255, 255, 0, 100)
 
     def _get_background_color(self, img):
         """
         _get_background_color() | gets the background color of an image
-            using the assumption that the background color is the most occuring color
+            using the assumption that the background color is the most
+            occuring color
         return | pixel in the image format, either: int, (int,int,int),
             (int, int, int, int) from 0-255
         """
@@ -32,7 +33,7 @@ class Fractal:
         for pixel, count in pixels.items():
             if pixel_freq is None or count > pixels[pixel]:
                 pixel_freq = pixel
-        
+
         return pixel_freq
 
     def _get_square_indicies(self, img, x, y):
@@ -55,7 +56,7 @@ class Fractal:
 
         return indicies
 
-    def _count_non_background_pixels(self, img, generate_image = False):
+    def _count_non_background_pixels(self, img, generate_image=False):
         """
         _count_non_background_pixels() | counts the number of regions that
             contain a non background pixel
@@ -77,8 +78,8 @@ class Fractal:
         for y in range(0, h, self._sample_size):
             for x in range(0, w, self._sample_size):
                 # get the indexes in the current search square
-                indexes = self._get_square_indicies(img, x,y)
-                
+                indexes = self._get_square_indicies(img, x, y)
+
                 # check if any pixel in the search square contains a
                 # non-bckg pixel
                 containsPixel = False
@@ -89,7 +90,7 @@ class Fractal:
 
                 if containsPixel:
                     count += 1
-                
+
                     # if the generate iamge flag is passed, we go through each
                     # pixel in the search area and set it to red if its a
                     # background pixel
@@ -97,20 +98,21 @@ class Fractal:
                         for index in indexes:
                             py = index // w
                             px = index % w
-                            #if data[w*(py) + (px)] == bckg:
-                            pixel = self._vis_img.getpixel((px,py))
+
+                            # if data[w*(py) + (px)] == bckg:
+                            pixel = self._vis_img.getpixel((px, py))
                             alpha = self._OVERLAY_COLOR[3]
 
                             # mix overlay color with image base color
-                            R = int((pixel[0]*(255-alpha) + 
+                            R = int((pixel[0]*(255-alpha) +
                                     self._OVERLAY_COLOR[0]*alpha)/255)
-                            G = int((pixel[1]*(255-alpha) + 
+                            G = int((pixel[1]*(255-alpha) +
                                     self._OVERLAY_COLOR[1]*alpha)/255)
-                            B = int((pixel[2]*(255-alpha) + 
+                            B = int((pixel[2]*(255-alpha) +
                                     self._OVERLAY_COLOR[2]*alpha)/255)
 
                             mixed = (R, G, B, 255)
-                            self._vis_img.putpixel((px,py), mixed) 
+                            self._vis_img.putpixel((px, py), mixed)
         return count
 
     def _get_num_places(self, x):
@@ -132,13 +134,13 @@ class Fractal:
         returns (list( (float) ))
         """
         numplaces = self._get_num_places(step)
-        l = []
+        out = []
         while True:
-            l.append(start)
+            out.append(start)
             start += step
-            start = round(start,numplaces)
+            start = round(start, numplaces)
             if start >= stop:
-                return l
+                return out
 
     def _scale_count_process(self, factor, array):
         """
@@ -156,7 +158,7 @@ class Fractal:
         array[0] = factor
         array[1] = count
         return None
-    
+
     def _get_scaling_data_process(self, start, stop, inc, verbose=False):
         """
         _get_scaling_data_process() | gets the scaling data for the fractal
@@ -172,9 +174,9 @@ class Fractal:
             arr = Array('d', range(2))
             p = Process(target=self._scale_count_process, args=(factor, arr))
             p.start()
-            
+
             procs.append((p, arr))
-        
+
         if verbose:
             print("All Processes Started")
         i = 0
@@ -186,7 +188,6 @@ class Fractal:
             i += 1
             if verbose:
                 print(f"    {i}/{len(procs)}")
-            
 
         return data
 
@@ -205,7 +206,7 @@ class Fractal:
             y2 = point[1]
 
             total += (y2-y1)**2
-        
+
         return total / len(points)
 
     def _calculate_best_slope(self, points):
@@ -217,8 +218,8 @@ class Fractal:
             calculate the slope of
         returns | (int)
         """
-        
-        #calculate y_intercept
+
+        # calculate y_intercept
         left_zero = None
         right_zero = None
         at_zero = None
@@ -232,13 +233,13 @@ class Fractal:
             else:
                 at_zero = point
                 break
-        
+
         y_intercept = at_zero
         if y_intercept is None:
-            pass #TODO implement y-int interpolation
+            # TODO implement y-int interpolation
+            pass
         else:
             y_intercept = y_intercept[1]
-
 
         slope = 0
         max_error = self._get_mean_squared_error(points, slope, y_intercept)
@@ -257,7 +258,7 @@ class Fractal:
             max_error = error
 
         return slope
-        
+
     def calculate_power(self, start=1, stop=5, inc=0.2, verbose=False):
         """
         calculate_power() | calculates the power of the Fractal using
@@ -291,14 +292,11 @@ class Fractal:
             used to determine the "mass" of the fractal
         returns | (PIL.Image)
         """
-        self._count_non_background_pixels(self._img, generate_image = True)
+        self._count_non_background_pixels(self._img, generate_image=True)
         return self._vis_img
 
 
 if "__main__" in __name__:
 
     f = Fractal("test_imgs/circle.png")
-
-    #print(f._get_scaling_data_process(1,5,0.2))
-
     print(f.calculate_power(0.6, 5.2, 0.2, True))

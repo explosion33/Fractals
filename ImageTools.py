@@ -1,5 +1,6 @@
 from PIL import Image
 
+
 def scaleImage(img, new_size, keep_aspect_ratio=False):
     """
     scaleImaeg() | scales the provided image to the provided resolution
@@ -7,7 +8,7 @@ def scaleImage(img, new_size, keep_aspect_ratio=False):
     new_size | (width, height)
     keep_aspect_ratio | (bool) (default = False), if True adjusts
         provided height to maintain original aspect ratio
-    
+
     returns | scaled image
     """
     w, h = new_size
@@ -17,7 +18,7 @@ def scaleImage(img, new_size, keep_aspect_ratio=False):
 
     if not keep_aspect_ratio:
         return img.resize(new_size, Image.ANTIALIAS)
-    
+
     oldW = img.size[0]
     ratio = w / oldW
     newH = int(ratio * img.size[1])
@@ -43,7 +44,7 @@ def check_similarity(img1, img2):
 
     # compute difference between the images
     total = len(large)
-    error = len(large) - len(small) # error based on dimensions
+    error = len(large) - len(small)  # error based on dimensions
 
     for i in range(len(small)):
         p1 = large[i]
@@ -56,7 +57,7 @@ def check_similarity(img1, img2):
 
 
 def to_mono(img):
-    return img.convert("L")
+    return img.convert("1")
 
 
 if "__main__" in __name__:
