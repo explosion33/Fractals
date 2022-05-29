@@ -157,7 +157,7 @@ class Fractal:
         array[1] = count
         return None
     
-    def _get_scaling_data_process(self, start, stop, inc):
+    def _get_scaling_data_process(self, start, stop, inc, verbose=False):
         """
         _get_scaling_data_process() | gets the scaling data for the fractal
             in a bunch of background processes. Scaling from start to stop,
@@ -175,7 +175,8 @@ class Fractal:
             
             procs.append((p, arr))
         
-        print("All Processes Started")
+        if verbose:
+            print("All Processes Started")
         i = 0
         data = []
         for proc in procs:
@@ -183,7 +184,8 @@ class Fractal:
             arr = proc[1]
             data.append((arr[0], arr[1]))
             i += 1
-            print(f"    {i}/{len(procs)}")
+            if verbose:
+                print(f"    {i}/{len(procs)}")
             
 
         return data
@@ -256,7 +258,7 @@ class Fractal:
 
         return slope
         
-    def calculate_power(self, start=1, stop=5, inc=0.2):
+    def calculate_power(self, start=1, stop=5, inc=0.2, verbose=False):
         """
         calculate_power() | calculates the power of the Fractal using
             Hausdorff's method
@@ -265,7 +267,7 @@ class Fractal:
         number_of_times | the number of times to scale the fractal and count
         returns | (float) power of the Fractal
         """
-        data = self._get_scaling_data_process(start, stop, inc)
+        data = self._get_scaling_data_process(start, stop, inc, verbose)
 
         logs = []
         for point in data:
@@ -273,7 +275,12 @@ class Fractal:
                 return 0
             logs.append((math.log(point[0]), math.log(point[1])))
 
-        print(data, logs)
+        if verbose:
+            print("="*12)
+            print(data)
+            print("="*12)
+            print(logs)
+            print("="*12)
 
         power = self._calculate_best_slope(logs)
         return power
@@ -294,4 +301,4 @@ if "__main__" in __name__:
 
     #print(f._get_scaling_data_process(1,5,0.2))
 
-    print(f.calculate_power(0.6, 5.2, 0.2))
+    print(f.calculate_power(0.6, 5.2, 0.2, True))
