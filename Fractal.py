@@ -1,7 +1,8 @@
 import io
+import os
 import math
 from PIL import Image
-from multiprocessing import Process, Array
+from multiprocessing import Process, Array, Value
 from matplotlib import pyplot as plt
 from ImageTools import scaleImage
 
@@ -329,12 +330,50 @@ class Fractal:
 
         return self._power_vis
 
-
-
 if "__main__" in __name__:
+    vals = []
 
-    f = Fractal("test_imgs/circle.png")
-    print(f.get_last_power_visualization())
-    print(f.calculate_power(0.6, 5.2, 0.2, True, True))
-    f.get_last_power_visualization().show()
-    
+    currSet = []
+
+    currentName = None
+    files = os.listdir("imgs")
+    files.append(os.listdir("imgs")[0])
+    for file in files:
+        power, path = file.split(")")
+        power = float(power[1::])
+
+        name = " ".join(path.split(".")[:-1])
+        if name[-2] == "_":
+            name = name[:-2]
+
+
+        if name != currentName:
+            if currentName is not None:
+                min = 0
+                p = currSet[0][1]
+                for i in range(1, len(currSet)):
+                    val = currSet[i][0]
+                    lowVal = currSet[min][0]
+                    print(abs(p-val), abs(lowVal-p), min, p)
+                    if abs(power-val) < abs(lowVal-p):
+                        min = i
+
+                vals.append(currSet[min])
+                print(currSet[min])
+
+                currSet = []
+            currentName = name
+
+
+        print(power, path, currentName)
+
+        f = Fractal("imgs/" + file)
+        
+        p = f.calculate_power()
+
+        currSet.append((p, power))
+        print(p, power)
+
+    print("="*12)
+    print(vals)
+    print("="*12)
