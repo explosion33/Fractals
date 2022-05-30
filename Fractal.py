@@ -1,6 +1,8 @@
+import io
 import math
 from PIL import Image
 from multiprocessing import Process, Array
+from matplotlib import pyplot as plt
 from ImageTools import scaleImage
 
 
@@ -10,6 +12,7 @@ class Fractal:
         self._sample_size = 2
 
         self._vis_img = None
+        self._power_vis = None
 
         self._OVERLAY_COLOR = (255, 255, 0, 100)
 
@@ -259,7 +262,7 @@ class Fractal:
 
         return slope
 
-    def calculate_power(self, start=1, stop=5, inc=0.2, verbose=False):
+    def calculate_power(self, start=1, stop=5, inc=0.2, verbose=False, visualize=False):
         """
         calculate_power() | calculates the power of the Fractal using
             Hausdorff's method
@@ -284,6 +287,28 @@ class Fractal:
             print("="*12)
 
         power = self._calculate_best_slope(logs)
+
+        if visualize:
+            fig, (ax1, ax2) = plt.subplots(2, figsize=(11, 7))
+            fig.tight_layout(pad=3.0)
+
+            data_x = [x[0] for x in data]
+            data_y = [x[1] for x in data]
+            logs_x = [x[0] for x in logs]
+            logs_y = [x[0] for x in logs]
+
+            ax1.plot(data_x, data_y, "o", color="black")
+            ax2.plot(logs_x, logs_y, "o", color="black")
+            ax2.plot(logs_x, logs_y)
+
+            ax1.set_title("\"mass\" vs. scaling factor")
+            ax2.set_title(f"log(\"mass\") vs. log(scaling factor) slope={round(power, 3)}")
+
+            img_buf = io.BytesIO()
+            plt.savefig(img_buf, format='png')
+
+            self._power_vis = Image.open(img_buf)
+
         return power
 
     def visualize_counting(self):
@@ -295,8 +320,21 @@ class Fractal:
         self._count_non_background_pixels(self._img, generate_image=True)
         return self._vis_img
 
+    def get_last_power_visualization(self):
+        """
+        get_last_power_visualization() | gets the last visualization
+            from Fractal.calculate_power(visualize=True)
+        returns | (PIL.Image) if an image is available, None if not
+        """
+
+        return self._power_vis
+
+
 
 if "__main__" in __name__:
 
     f = Fractal("test_imgs/circle.png")
-    print(f.calculate_power(0.6, 5.2, 0.2, True))
+    print(f.get_last_power_visualization())
+    print(f.calculate_power(0.6, 5.2, 0.2, True, True))
+    f.get_last_power_visualization().show()
+    

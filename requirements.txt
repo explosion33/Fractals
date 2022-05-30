@@ -1,3 +1,4 @@
 requests
 google-search-results
 pandas
+matplotlib
