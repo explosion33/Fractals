@@ -2,7 +2,7 @@ import io
 import os
 import math
 from PIL import Image
-from multiprocessing import Process, Array, Value
+from multiprocessing import Process, Array
 from matplotlib import pyplot as plt
 from ImageTools import scaleImage
 
@@ -263,16 +263,18 @@ class Fractal:
 
         return slope
 
-    def calculate_power(self, start=1, stop=5, inc=0.2, verbose=False, visualize=False):
+    def calculate_power(self, start=1, stop=5, inc=0.2, log=False, vis=False):
         """
         calculate_power() | calculates the power of the Fractal using
             Hausdorff's method
         starting_scale  | the starting value to scale the image by
         increase_by     | the amount to increate the scale by each cycle
         number_of_times | the number of times to scale the fractal and count
+        log             | (bool) verbose console output
+        vis             | (bool) produces visualization of process
         returns | (float) power of the Fractal
         """
-        data = self._get_scaling_data_process(start, stop, inc, verbose)
+        data = self._get_scaling_data_process(start, stop, inc, log)
 
         logs = []
         for point in data:
@@ -280,7 +282,7 @@ class Fractal:
                 return 0
             logs.append((math.log(point[0]), math.log(point[1])))
 
-        if verbose:
+        if log:
             print("="*12)
             print(data)
             print("="*12)
@@ -289,7 +291,7 @@ class Fractal:
 
         power = self._calculate_best_slope(logs)
 
-        if visualize:
+        if vis:
             fig, (ax1, ax2) = plt.subplots(2, figsize=(11, 7))
             fig.tight_layout(pad=3.0)
 
@@ -303,7 +305,10 @@ class Fractal:
             ax2.plot(logs_x, logs_y)
 
             ax1.set_title("\"mass\" vs. scaling factor")
-            ax2.set_title(f"log(\"mass\") vs. log(scaling factor) slope={round(power, 3)}")
+            ax2.set_title((
+                f"log(\"mass\") vs. log(scaling factor)"
+                f" | slope={round(power, 3)}"
+            ))
 
             img_buf = io.BytesIO()
             plt.savefig(img_buf, format='png')
@@ -333,6 +338,7 @@ class Fractal:
     def set_sample_size(self, size):
         self._sample_size = size
 
+
 def get_error_per_fractal(dir):
     """
     get_error_per_fractal() | computes the error for each Fractal and
@@ -354,7 +360,6 @@ def get_error_per_fractal(dir):
         if name[-2] == "_":
             name = name[:-2]
 
-
         if name != currentName:
             if currentName is not None:
                 min = 0
@@ -372,11 +377,10 @@ def get_error_per_fractal(dir):
                 currSet = []
             currentName = name
 
-
         print(power, path, currentName)
 
         f = Fractal(dir + "/" + file)
-        
+
         p = f.calculate_power()
 
         currSet.append((p, power, name))
@@ -384,7 +388,8 @@ def get_error_per_fractal(dir):
 
     return vals
 
-def plot_percent_error_per_Fractal_scatter(vals, path):
+
+def plot_percent_error_scatter(vals, path):
     """
     plot_percent_error_per_Fractal_scatter() | plots the percent error
         for each fractal given the fractals actual power
@@ -400,21 +405,21 @@ def plot_percent_error_per_Fractal_scatter(vals, path):
     actual_powers = []
     avg_error = 0
     for pair in vals:
-        diff = abs(pair[0]- pair[1])
+        diff = abs(pair[0] - pair[1])
         perc_diff = diff/pair[1] * 100
         avg_error += perc_diff
         perc_errors.append(perc_diff)
         actual_powers.append(pair[1])
-    
+
     avg_error /= len(vals)
 
     # plot the data as a graph between actual power and percent error
     fig, ax = plt.subplots(figsize=(11, 7))
     fig.tight_layout(pad=3.0)
 
-
     ax.plot(actual_powers, perc_errors, "o", color="black")
-    ax.plot(actual_powers, [avg_error]*len(vals), label=f"Average Error | {round(avg_error,2)}")
+    ax.plot(actual_powers, [avg_error]*len(vals),
+            label=f"Average Error | {round(avg_error,2)}")
 
     plt.legend(loc='upper center')
 
@@ -422,7 +427,8 @@ def plot_percent_error_per_Fractal_scatter(vals, path):
 
     plt.savefig(path)
 
-def plot_percent_error_per_Fractal_bar(vals, path):
+
+def plot_percent_error_bar(vals, path):
     """
     plot_percent_error_per_Fractal_scatter() | plots the percent error
         for each fractal given the fractals actual power
@@ -432,18 +438,18 @@ def plot_percent_error_per_Fractal_bar(vals, path):
     returns | None | saves fig to ts/scraped_data_PIL_error.png
     """
 
-     # compute the percent difference from each value to its actual value
+    # compute the percent difference from each value to its actual value
     # as well as the avg percent error for all the Fractals
     perc_errors = []
     names = []
     avg_error = 0
     for pair in vals:
-        diff = abs(pair[0]- pair[1])
+        diff = abs(pair[0] - pair[1])
         perc_diff = diff/pair[1] * 100
         avg_error += perc_diff
         perc_errors.append(perc_diff)
         names.append(pair[2])
-    
+
     avg_error /= len(vals)
 
     # plot the data as a graph between actual power and percent error
@@ -451,8 +457,8 @@ def plot_percent_error_per_Fractal_bar(vals, path):
     fig.tight_layout(pad=3.0)
 
     plt.setp(ax.get_xticklabels(), fontsize=6, rotation='45')
-    ax.set_ylim(0,100)
-    
+    ax.set_ylim(0, 100)
+
     ax.bar(names, perc_errors)
 
     ax.set_title(f"percent error per Fractal | avg_error={round(avg_error,2)}")
@@ -466,7 +472,6 @@ def main():
     # print("="*12)
     # print(vals)
     # print("="*12)
-
 
     # data from last computation of data set
     vals = [
@@ -540,14 +545,14 @@ def main():
         (1.3822999999998642, 2.0)
     ]
 
-    plot_percent_error_per_Fractal_scatter(vals, "plts/scraped_data_PIL_error.png")
+    plot_percent_error_scatter(vals, "plts/scraped_data_PIL_error.png")
 
     # vals = get_error_per_fractal("basic_shapes/generated")
     # print("="*12)
     # print(vals)
     # print("="*12)
 
-    vals =[
+    vals = [
         (2.055299999999913, 2.0, 'Arrow 1'),
         (1.9998999999997964, 2.0, 'Arrow 2'),
         (2.0016999999997998, 2.0, 'Circle 2'),
@@ -587,9 +592,9 @@ def main():
         (2.383300000000605, 2.0, 'Trapezoid'),
         (2.052999999999908, 2.0, 'Triangle 2'),
         (2.15350000000012, 2.0, 'Triangle')
-]
+    ]
 
-    plot_percent_error_per_Fractal_bar(vals, "plts/generated_polygons.png")
+    plot_percent_error_bar(vals, "plts/generated_polygons.png")
 
     f = Fractal("test_imgs/circle.png")
     f.calculate_power(visualize=True)
@@ -607,9 +612,6 @@ def main():
     scaleImage(img, (w*5, h*5)).save("plts/scaled_low_quality.png")
     f = Fractal("plts/scaled_low_quality.png")
     f.visualize_counting().save("plts/inacurate_scaled_counting.png")
-
-
-
 
 
 if "__main__" in __name__:
