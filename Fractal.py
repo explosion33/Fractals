@@ -222,44 +222,42 @@ class Fractal:
             calculate the slope of
         returns | (int)
         """
-
-        # calculate y_intercept
-        left_zero = None
-        right_zero = None
-        at_zero = None
-        for point in points:
-            if point[0] < 0:
-                if left_zero is None or point[0] > left_zero[0]:
-                    left_zero = point
-            elif point[0] > 0:
-                if right_zero is None or point[0] < right_zero[0]:
-                    right_zero = point
-            else:
-                at_zero = point
-                break
-
-        y_intercept = at_zero
-        if y_intercept is None:
-            # TODO implement y-int interpolation
-            pass
-        else:
-            y_intercept = y_intercept[1]
-
+        yint = 0
         slope = 0
-        max_error = self._get_mean_squared_error(points, slope, y_intercept)
-        while True:
-            slope += 0.0001
-            error = self._get_mean_squared_error(points, slope, y_intercept)
-            if error > max_error:
-                break
-            max_error = error
 
-        while True:
-            slope -= 0.0001
-            error = self._get_mean_squared_error(points, slope, y_intercept)
-            if error > max_error:
-                break
-            max_error = error
+        # repeat regression 250 times
+        for i in range(250):
+            # calculate best slope with the given intercept
+            max_error = self._get_mean_squared_error(points, slope, yint)
+            while True:
+                error = self._get_mean_squared_error(points, slope+0.001, yint)
+                if error > max_error:
+                    break
+                slope += 0.001
+                max_error = error
+
+            while True:
+                error = self._get_mean_squared_error(points, slope-0.001, yint)
+                if error > max_error:
+                    break
+                slope -= 0.0001
+                max_error = error
+
+            # calculate best intercept with current slope
+            max_error = self._get_mean_squared_error(points, slope, yint)
+            while True:
+                error = self._get_mean_squared_error(points, slope, yint+0.001)
+                if error > max_error:
+                    break
+                yint += 0.0001
+                max_error = error
+            while True:
+                error = self._get_mean_squared_error(points,
+                                                     slope, yint-0.0001)
+                if error > max_error:
+                    break
+                yint -= 0.0001
+                max_error = error
 
         return slope
 
