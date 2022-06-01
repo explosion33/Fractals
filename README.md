@@ -8,6 +8,7 @@ Install all of the dependencies for this project with
 pip3 install -r requirements.txt
 ```
 
+
 ## Compiling the Data
 some of the data is already included, such as `state_borders`, and `basic_shapes`. However the majority of the data is scraped in real-time
 
