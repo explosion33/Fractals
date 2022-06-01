@@ -1,3 +1,10 @@
+"""
+Ethan Armstrong
+Section AD
+
+This module provides tests for all .py files in this project
+"""
+
 import math
 import numpy as np
 import pandas as pd
@@ -7,8 +14,6 @@ from multiprocessing import Process, Array
 from ImageTools import check_similarity, scaleImage, to_mono
 import compileImages
 from Fractal import Fractal
-
-# TODO add test for compileImages.get_alternative_images
 
 # taken from CSE163 utils
 TOLERANCE = 0.001
@@ -81,6 +86,9 @@ def assert_equals(expected, received):
 
 
 def test_image_tools():
+    """
+    tests for ImageTools.py
+    """
     print("Running Image Tools Tests")
 
     circle = Image.open("test_imgs/circle.png")
@@ -107,6 +115,13 @@ def test_image_tools():
 
 
 def test_compile_images():
+    """
+    tests for compileImages.py
+    note:
+        could not test for get_alternative_images, because the data returned
+        is entirely based off of what SerpAPI returns, and how Google ranks
+        their images
+    """
     # normalize_html
     print("testing compile images")
     text = compileImages.normalize_html("<a>test 12</a>3<span>test</span>")
@@ -147,6 +162,9 @@ def test_compile_images():
 
 
 def test_fractal():
+    """
+    tests for Fractal.py
+    """
     print("Testing Fractal")
     f = Fractal("test_imgs/circle.png")
     f2 = Fractal("test_imgs/fractal.png")

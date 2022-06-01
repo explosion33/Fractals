@@ -1,3 +1,15 @@
+"""
+Ethan Armstrong
+Section AD
+
+This module provides a variety of functions for
+    scraping web data
+    parsing html
+    normalizing html
+    searching google
+    downloading and saving images
+"""
+
 import requests
 import re
 import ImageTools
