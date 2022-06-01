@@ -9,7 +9,7 @@ def get_state_roughness(dir):
     for file in os.listdir(dir):
         path = dir + "/" + file
 
-        name = file.split("-")[0]
+        name = " ".join(file.split("-")[:-2])
 
         print(name)
 

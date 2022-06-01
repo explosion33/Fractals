@@ -202,7 +202,6 @@ def test_fractal():
     assert_equals(1000, f._sample_size)
 
 
-
 def main():
     test_image_tools()
     test_compile_images()
