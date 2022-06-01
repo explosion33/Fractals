@@ -187,8 +187,20 @@ def test_fractal():
     assert_equals(1.0, f._calculate_best_slope([(0, 0), (1, 1), (2, 2)]))
     assert_equals(2.0, f._calculate_best_slope([(0, 0), (1, 2), (2, 4)]))
 
-    f = Fractal("test_imgs/blue.png")
-    assert_equals(0, f.calculate_power())
+    f3 = Fractal("test_imgs/blue.png")
+    assert_equals(0, f3.calculate_power())
+
+    count = Image.open("test_imgs/counting_circle.png")
+    assert_equals(1, check_similarity(count, f.visualize_counting()))
+
+    reg_charts = Image.open("test_imgs/circle_regression.png")
+    f.calculate_power(vis=True)
+    vis = f.get_last_power_visualization()
+    assert_equals(1, check_similarity(reg_charts, vis))
+
+    f.set_sample_size(1000)
+    assert_equals(1000, f._sample_size)
+
 
 
 def main():
