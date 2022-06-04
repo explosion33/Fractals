@@ -498,7 +498,7 @@ def main():
     plot_percent_error_scatter(vals, "plts/scraped_data_PIL_error.png")
 
     # will take ~45 min
-    vals = get_error_per_fractal("basic_shapes/generated")
+    vals = get_error_per_fractal("images/basic_shapes/generated")
     print("="*12)
     print(vals)
     print("="*12)
@@ -523,7 +523,7 @@ def main():
 
     # scaled version of low quality image
     # plus counting errors when scaled
-    img = Image.open("basic_shapes/generated/(2.0)Circle.png")
+    img = Image.open("images/basic_shapes/generated/(2.0)Circle.png")
     w, h = img.size
     scaleImage(img, (w*5, h*5)).save("plts/scaled_low_quality.png")
     f = Fractal("plts/scaled_low_quality.png")
