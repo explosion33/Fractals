@@ -47,7 +47,10 @@ This will output the images you can see in the report to the `plts` folder
 
 
 ## ML Analysis
-TODO
+To analyze images with Machine Learning, run
+```
+python3 ml.py
+```
 
 ## Border Analysis
 To analyze the borders of US State geospatial data

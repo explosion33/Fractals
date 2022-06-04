@@ -1,11 +1,7 @@
-from multiprocessing import pool
-from cachetools import Cache
-import numpy as np
-import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow import keras
 from keras import layers
-from keras.preprocessing.image import ImageDataGenerator
+
 
 def main():
     tf.get_logger().setLevel('WARNING')
@@ -17,8 +13,7 @@ def main():
     ds_train = tf.keras.preprocessing.image_dataset_from_directory(
         'images',
         labels='inferred',
-        label_mode = "categorical",
-        #class_names=[""]
+        label_mode="categorical",
         color_mode='grayscale',
         batch_size=32,
         image_size=(img_height, img_width),
@@ -28,14 +23,12 @@ def main():
         subset="training"
     )
 
-
     # This generates the validating dataset with a similar process as how
     # we have generated our training dataset
     ds_validate = tf.keras.preprocessing.image_dataset_from_directory(
         'images',
         labels='inferred',
-        label_mode = "categorical",
-        #class_names=[""],
+        label_mode="categorical",
         color_mode='grayscale',
         batch_size=32,
         image_size=(img_height, img_width),
@@ -44,7 +37,6 @@ def main():
         validation_split=0.2,
         subset="validation"
     )
-
 
     model = keras.Sequential(
         [
