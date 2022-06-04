@@ -3,3 +3,5 @@ google-search-results
 matplotlib
 numpy
 pandas
+cachetools
+tensorflow
