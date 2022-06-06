@@ -1,7 +1,11 @@
-# Written by Jerry Gao, tested by Blake Sketchley
-# This program takes two folders of images and trains a machine learning
-# algorithm to determine whether a given image is hand-drawn or
-# computer-generated. 
+"""
+Jerry Gao
+Section AD
+
+This program takes two folders of images and trains a machine learning
+algorithm to determine whether a given image is hand-drawn or
+computer-generated. 
+"""
 
 import tensorflow as tf
 from tensorflow import keras
