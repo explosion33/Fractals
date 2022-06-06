@@ -1,3 +1,8 @@
+# Written by Jerry Gao, tested by Blake Sketchley
+# This program takes two folders of images and trains a machine learning
+# algorithm to determine whether a given image is hand-drawn or
+# computer-generated. 
+
 import tensorflow as tf
 from tensorflow import keras
 from keras import layers
@@ -24,7 +29,7 @@ def main():
     )
 
     # This generates the validating dataset with a similar process as how
-    # we have generated our training dataset
+    # we have generated our training dataset.
     ds_validate = tf.keras.preprocessing.image_dataset_from_directory(
         'images',
         labels='inferred',
@@ -38,16 +43,19 @@ def main():
         subset="validation"
     )
 
+    # This sets up the model with specific amounts of layers, dense
+    # layers, and initial neurons. In this setup, there are 4 layers,
+    # 3 dense layers, and 32 initial neurons.
     model = keras.Sequential(
         [
             keras.Input(shape=(50, 50, 1)),
-            layers.Conv2D(128, 3, activation='relu'),
+            layers.Conv2D(32, 3, activation='relu'),
             layers.MaxPool2D(pool_size=(2, 2)),
+            layers.Conv2D(64, 3, activation='relu'),
+            layers.MaxPool2D(),
+            layers.Conv2D(128, 3, activation='relu'),
+            layers.MaxPool2D(),
             layers.Conv2D(256, 3, activation='relu'),
-            layers.MaxPool2D(),
-            layers.Conv2D(512, 3, activation='relu'),
-            layers.MaxPool2D(),
-            layers.Conv2D(1024, 3, activation='relu'),
             layers.MaxPool2D(),
             layers.Flatten(),
             layers.Dense(32, activation='relu'),
@@ -68,5 +76,5 @@ def main():
     print(model.summary())
 
 
-if"__main__" in __name__:
+if "__main__" in __name__:
     main()
