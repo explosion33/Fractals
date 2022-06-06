@@ -4,7 +4,7 @@ Section AD
 
 This program takes two folders of images and trains a machine learning
 algorithm to determine whether a given image is hand-drawn or
-computer-generated. 
+computer-generated.
 """
 
 import tensorflow as tf
