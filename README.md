@@ -15,9 +15,29 @@ pip3 install geopandas
 however, on a windows machine, `roughness.py` will not compile without `geopandas` I would recomend using a virutal enviroment on edstem, or VirutalBox
 
 ## Compiling the Data
-some of the data is already included, such as `state_borders`, and `basic_shapes`. These where accuried and drawn by hand, so we dont include a module to compile these. However the majority of the data is scraped in real-time
+All of the data is already included you need to extract each of the foleders composed in `images.rar` into the main directory, on windows that is usually done with [winrar](https://www.win-rar.com/start.html?&L=0) or [7zip](https://www.7-zip.org/download.html). Alternitavely the folders can be downloaded directly from our [github page](https://github.com/explosion33/Fractals)
 
-In order to download this data run
+the directory should look as follows
+```
+Fractals\
+    images\
+    imgs\
+    plts\
+    state_borders\
+    test_imgs\
+    compileImages.py
+    Fractal.py
+    gz_2010_us_040_00_5m.json
+    ImageTools.py
+    ml.py
+    README.md
+    requirements.txt
+    roughness.py
+    tests.py
+```
+
+Some data was compiled and included by hand, `images`, `state_borders`, `gz_2010_us_040_00_5m.json`, `test_imgs`. The rest of the data, found in the `imgs` folder is pre-downloaded, but can also be re-downloaded by running
+
 
 ```
 python3 compileImages.py
